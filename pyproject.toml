@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agri-reliability"
+version = "1.0.0"
+description = "Reproducibility package for agricultural visual model reliability benchmarking"
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+where = ["src"]

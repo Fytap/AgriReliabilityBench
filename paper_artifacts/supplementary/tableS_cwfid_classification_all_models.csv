@@ -1,0 +1,11 @@
+model,train_dataset,external_dataset,task,metric,score,accuracy,balanced_accuracy,macro_f1,ece,brier,miou,precision,recall,mAP50,mAP50-95,n_samples,class_imbalance_note
+ConvNeXtV2-Tiny,cropandweed,cwfid,classification,balanced_accuracy,0.4831,0.95,0.4831,0.4872,0.2051,0.1659,,,,,,60,crop and weed annotations available; weed-presence classification is highly imbalanced
+DINOv2-S/14 linear,cropandweed,cwfid,classification,balanced_accuracy,0.5,0.9833,0.5,0.4958,0.0186,0.0347,,,,,,60,crop and weed annotations available; weed-presence classification is highly imbalanced
+EfficientNetV2-S,cropandweed,cwfid,classification,balanced_accuracy,0.4661,0.9167,0.4661,0.4783,0.1334,0.1556,,,,,,60,crop and weed annotations available; weed-presence classification is highly imbalanced
+ResNet50,cropandweed,cwfid,classification,balanced_accuracy,0.4831,0.95,0.4831,0.4872,0.1125,0.1025,,,,,,60,crop and weed annotations available; weed-presence classification is highly imbalanced
+Swin-T,cropandweed,cwfid,classification,balanced_accuracy,0.4153,0.8167,0.4153,0.4495,0.1165,0.2908,,,,,,60,crop and weed annotations available; weed-presence classification is highly imbalanced
+ConvNeXtV2-Tiny,phenobench,cwfid,classification,balanced_accuracy,0.2458,0.4833,0.2458,0.3258,0.1035,0.5208,,,,,,60,crop and weed annotations available; weed-presence classification is highly imbalanced
+DINOv2-S/14 linear,phenobench,cwfid,classification,balanced_accuracy,0.5,0.9833,0.5,0.4958,0.1293,0.066,,,,,,60,crop and weed annotations available; weed-presence classification is highly imbalanced
+EfficientNetV2-S,phenobench,cwfid,classification,balanced_accuracy,0.5,0.0167,0.5,0.0164,0.9829,1.965,,,,,,60,crop and weed annotations available; weed-presence classification is highly imbalanced
+ResNet50,phenobench,cwfid,classification,balanced_accuracy,0.0847,0.1667,0.0847,0.1429,0.3428,0.5147,,,,,,60,crop and weed annotations available; weed-presence classification is highly imbalanced
+Swin-T,phenobench,cwfid,classification,balanced_accuracy,0.5085,0.0333,0.5085,0.0333,0.5826,0.748,,,,,,60,crop and weed annotations available; weed-presence classification is highly imbalanced

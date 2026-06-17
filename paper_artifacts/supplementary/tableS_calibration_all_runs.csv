@@ -1,0 +1,21 @@
+model,train_dataset,test_dataset,scope,model_label,accuracy,balanced_accuracy,macro_f1,ECE,Brier,AURC,risk_at_80,risk_at_90,high_conf_wrong_0.9,n_samples
+convnextv2_tiny,cropandweed,cropandweed,in_domain,ConvNeXtV2-Tiny,0.8741,0.8724,0.8472,0.0988,0.1117,0.1211,0.0899,0.1026,48,1223
+convnextv2_tiny,phenobench,phenobench,in_domain,ConvNeXtV2-Tiny,0.2111,0.5734,0.1985,0.3725,0.3234,0.8838,0.8495,0.8187,0,772
+convnextv2_tiny,cropandweed,phenobench,cross_dataset,ConvNeXtV2-Tiny,0.2889,0.586,0.2565,0.5254,0.5516,0.8562,0.7621,0.7353,269,772
+convnextv2_tiny,phenobench,cropandweed,cross_dataset,ConvNeXtV2-Tiny,0.3908,0.5098,0.3908,0.2602,0.3283,0.6484,0.6353,0.6194,8,1223
+dinov2_small,cropandweed,cropandweed,in_domain,DINOv2-S/14 linear,0.8258,0.8427,0.7988,0.0195,0.1223,0.0673,0.1052,0.1426,31,1223
+dinov2_small,phenobench,phenobench,in_domain,DINOv2-S/14 linear,0.5518,0.7235,0.4237,0.2861,0.1572,0.1508,0.356,0.4144,0,772
+dinov2_small,cropandweed,phenobench,cross_dataset,DINOv2-S/14 linear,0.706,0.748,0.5062,0.0374,0.1981,0.1919,0.2638,0.2863,1,772
+dinov2_small,phenobench,cropandweed,cross_dataset,DINOv2-S/14 linear,0.7424,0.5199,0.4736,0.0261,0.1812,0.2143,0.2125,0.2316,0,1223
+efficientnetv2_s,cropandweed,cropandweed,in_domain,EfficientNetV2-S,0.8814,0.8713,0.8535,0.1103,0.1071,0.13,0.093,0.0972,69,1223
+efficientnetv2_s,phenobench,phenobench,in_domain,EfficientNetV2-S,0.342,0.5857,0.2915,0.5684,0.5768,0.6905,0.6748,0.6705,373,772
+efficientnetv2_s,cropandweed,phenobench,cross_dataset,EfficientNetV2-S,0.5492,0.6801,0.4167,0.2849,0.3726,0.6623,0.4531,0.4532,207,772
+efficientnetv2_s,phenobench,cropandweed,cross_dataset,EfficientNetV2-S,0.4947,0.448,0.4404,0.4221,,0.509,0.5128,0.5141,457,1223
+resnet50,cropandweed,cropandweed,in_domain,ResNet50,0.8258,0.8377,0.7974,0.0759,0.1424,0.1641,0.1338,0.148,71,1223
+resnet50,phenobench,phenobench,in_domain,ResNet50,0.272,0.5912,0.245,0.2491,0.2638,0.8276,0.7702,0.7525,0,772
+resnet50,cropandweed,phenobench,cross_dataset,ResNet50,0.3355,0.6244,0.2902,0.4826,0.5174,0.8008,0.6958,0.682,255,772
+resnet50,phenobench,cropandweed,cross_dataset,ResNet50,0.3042,0.4652,0.2947,0.2159,0.2603,0.7397,0.7283,0.713,0,1223
+swin_tiny,cropandweed,cropandweed,in_domain,Swin-T,0.8716,0.8697,0.8443,0.0946,0.109,0.1244,0.0827,0.0972,52,1223
+swin_tiny,phenobench,phenobench,in_domain,Swin-T,0.0479,0.502,0.0464,0.5572,0.3596,0.9537,0.9563,0.9554,5,772
+swin_tiny,cropandweed,phenobench,cross_dataset,Swin-T,0.1826,0.4603,0.1716,0.6487,0.6351,0.9311,0.8673,0.8489,333,772
+swin_tiny,phenobench,cropandweed,cross_dataset,Swin-T,0.2674,0.5039,0.216,0.4416,0.39,0.6729,0.7028,0.7248,121,1223

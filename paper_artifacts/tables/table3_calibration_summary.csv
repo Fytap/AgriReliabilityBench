@@ -1,0 +1,5 @@
+case,model,train_dataset,test_dataset,balanced accuracy,ECE,Brier,AURC,high-conf wrong
+Best in-domain CropAndWeed,ConvNeXtV2-T,C&W,C&W,0.8724,0.0988,0.1117,0.1211,48
+Best CropAndWeed to PhenoBench,DINOv2-S,C&W,PB,0.748,0.0374,0.1981,0.1919,1
+Worst high-confidence transfer,Swin-T,C&W,PB,0.4603,0.6487,0.6351,0.9311,333
+Best PhenoBench to CropAndWeed,DINOv2-S,PB,C&W,0.5199,0.0261,0.1812,0.2143,0

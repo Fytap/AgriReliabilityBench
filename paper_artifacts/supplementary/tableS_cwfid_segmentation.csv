@@ -1,0 +1,11 @@
+task,model,model_label,train_dataset,test_dataset,scope,primary_metric_name,primary_metric,accuracy,balanced_accuracy,macro_f1,ece,brier,high_conf_wrong_0.9,miou,iou_background,iou_crop,iou_weed,precision,recall,mAP50,mAP50-95
+segmentation,deeplabv3plus,DeepLabV3+,cropandweed,cwfid,external_validation,miou,0.4699,,,,,,,0.4699,0.9456,0.1144,0.3499,,,,
+segmentation,mask2former_swin_tiny,Mask2Former-Swin-T,cropandweed,cwfid,external_validation,miou,0.4722,,,,,,,0.4722,0.9484,0.0249,0.4433,,,,
+segmentation,segformer_b0,SegFormer-B0,cropandweed,cwfid,external_validation,miou,0.211,,,,,,,0.211,0.5237,0.0017,0.1077,,,,
+segmentation,unet,U-Net,cropandweed,cwfid,external_validation,miou,0.3532,,,,,,,0.3532,0.8152,0.0604,0.1839,,,,
+segmentation,upernet_swin_tiny,UPerNet-Swin-T,cropandweed,cwfid,external_validation,miou,0.3379,,,,,,,0.3379,0.7896,0.0963,0.1278,,,,
+segmentation,deeplabv3plus,DeepLabV3+,phenobench,cwfid,external_validation,miou,0.3094,,,,,,,0.3094,0.7563,0.0699,0.1022,,,,
+segmentation,mask2former_swin_tiny,Mask2Former-Swin-T,phenobench,cwfid,external_validation,miou,0.4265,,,,,,,0.4265,0.9636,0.1936,0.1223,,,,
+segmentation,segformer_b0,SegFormer-B0,phenobench,cwfid,external_validation,miou,0.2961,,,,,,,0.2961,0.65,0.0311,0.2073,,,,
+segmentation,unet,U-Net,phenobench,cwfid,external_validation,miou,0.3775,,,,,,,0.3775,0.9021,0.1448,0.0858,,,,
+segmentation,upernet_swin_tiny,UPerNet-Swin-T,phenobench,cwfid,external_validation,miou,0.2817,,,,,,,0.2817,0.7787,0.0658,0.0005,,,,

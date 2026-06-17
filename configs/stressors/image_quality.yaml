@@ -1,0 +1,24 @@
+stressors:
+  - name: clean
+    type: none
+  - name: low_resolution_0.5
+    type: resize_down_up
+    factor: 0.5
+  - name: low_resolution_0.25
+    type: resize_down_up
+    factor: 0.25
+  - name: gaussian_blur_3
+    type: gaussian_blur
+    kernel_size: 3
+  - name: jpeg_quality_50
+    type: jpeg_compression
+    quality: 50
+  - name: brightness_minus_20
+    type: brightness
+    delta: -20
+  - name: contrast_0.7
+    type: contrast
+    factor: 0.7
+  - name: random_occlusion_10
+    type: random_occlusion
+    area_fraction: 0.10

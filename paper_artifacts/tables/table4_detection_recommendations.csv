@@ -1,0 +1,7 @@
+scenario,model,metric,value,context,caution
+highest in-domain score on CropAndWeed,YOLO11m,mAP50-95,0.669,train/test CropAndWeed,Use only when deployment data match the training domain.
+highest in-domain score on PhenoBench,YOLOv5l6u,mAP50-95,0.627,train/test PhenoBench,Use only when deployment data match the training domain.
+best transfer CropAndWeed -> PhenoBench,YOLO11m,retention,0.6114,external score 0.4090,Use when dataset shift is expected; verify absolute external score as well as retention.
+best transfer PhenoBench -> CropAndWeed,RT-DETR-L,retention,0.4094,external score 0.2076,Use when dataset shift is expected; verify absolute external score as well as retention.
+highest mean stress retention,RT-DETR-L,mean stress retention,0.9515,PhenoBench,Use when blur/compression/illumination changes are likely.
+fastest batch-1 inference,YOLOv8m,latency_ms,32.4638,"CropAndWeed, 30.8036 FPS",Use only after checking reliability trade-offs for the deployment domain.

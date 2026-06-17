@@ -1,0 +1,10 @@
+name: deepweeds
+task: classification
+root: data/raw/deepweeds
+metadata_csv: data/raw/deepweeds/labels.csv
+splits:
+  train: train
+  val: val
+  test: test
+classes: auto
+notes: "External weed species classification and geographic/domain shift evaluation."

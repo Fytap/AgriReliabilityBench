@@ -1,0 +1,51 @@
+classification:
+  first_wave:
+    - name: convnextv2_tiny
+      source: timm
+      role: strong supervised fine-tuning baseline
+    - name: dinov3_convnext_tiny_linear
+      source: facebook/dinov3 via transformers or timm
+      role: latest foundation-feature linear probe
+    - name: siglip2_base_linear
+      source: google/siglip2 via transformers
+      role: vision-language feature baseline
+  later_wave:
+    - name: dinov3_vitb16_adapter
+      source: facebook/dinov3
+      role: higher-capacity foundation baseline
+segmentation:
+  first_wave:
+    - name: deeplabv3plus
+      source: phenobench-baselines or mmsegmentation
+      role: paper-compatible anchor baseline
+    - name: segformer_b0
+      source: transformers or mmsegmentation
+      role: efficient transformer baseline
+    - name: mask2former
+      source: phenobench-baselines or detectron2
+      role: strong mask-based segmentation baseline
+  later_wave:
+    - name: dinov3_linear_segmentation
+      source: facebook/dinov3
+      role: latest dense-feature transfer baseline
+    - name: sam2_prompted_or_pseudo_label
+      source: facebookresearch/segment-anything-2
+      role: auxiliary promptable/pseudo-label baseline, not primary semantic model
+detection:
+  first_wave:
+    - name: yolo12n_or_yolo12s
+      source: sunsmarterjie/yolov12
+      role: latest YOLO-style real-time detector
+    - name: d_fine_s
+      source: Peterande/D-FINE
+      role: modern DETR-style real-time detector
+    - name: rt_detrv2_r18
+      source: lyuwenyu/RT-DETR
+      role: stable Apache-2.0 transformer detector
+  agriculture_variants_to_try_after_baseline:
+    - name: gtdr_yolov12
+      source: yangzhaofeng496/GTDR-YOLOv12
+      role: weed-detection-specific YOLOv12 variant; verify reproducibility before main-table use
+    - name: yolo_sw
+      source: HeckerBoat/YOLO-SW
+      role: soybean weed YOLOv8 variant; useful as agricultural improved-model comparison

@@ -1,0 +1,15 @@
+stress_tests:
+  datasets:
+    - cropandweed
+    - phenobench
+  corruptions:
+    - clean
+    - gaussian_blur_3
+    - low_resolution_0.5
+    - jpeg_quality_50
+    - brightness_minus_20
+    - contrast_0.7
+  metrics:
+    - task_score
+    - absolute_drop_from_clean
+    - retention_from_clean

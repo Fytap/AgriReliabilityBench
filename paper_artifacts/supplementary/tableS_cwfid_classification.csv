@@ -1,0 +1,11 @@
+task,model,model_label,train_dataset,test_dataset,scope,primary_metric_name,primary_metric,accuracy,balanced_accuracy,macro_f1,ece,brier,high_conf_wrong_0.9,miou,iou_background,iou_crop,iou_weed,precision,recall,mAP50,mAP50-95
+classification,convnextv2_tiny,ConvNeXtV2-Tiny,cropandweed,cwfid,external_validation,balanced_accuracy,0.4831,0.95,0.4831,0.4872,0.2051,0.1659,1.0,,,,,,,,
+classification,dinov2_small,DINOv2-S/14 linear,cropandweed,cwfid,external_validation,balanced_accuracy,0.5,0.9833,0.5,0.4958,0.0186,0.0347,1.0,,,,,,,,
+classification,efficientnetv2_s,EfficientNetV2-S,cropandweed,cwfid,external_validation,balanced_accuracy,0.4661,0.9167,0.4661,0.4783,0.1334,0.1556,2.0,,,,,,,,
+classification,resnet50,ResNet50,cropandweed,cwfid,external_validation,balanced_accuracy,0.4831,0.95,0.4831,0.4872,0.1125,0.1025,0.0,,,,,,,,
+classification,swin_tiny,Swin-T,cropandweed,cwfid,external_validation,balanced_accuracy,0.4153,0.8167,0.4153,0.4495,0.1165,0.2908,2.0,,,,,,,,
+classification,convnextv2_tiny,ConvNeXtV2-Tiny,phenobench,cwfid,external_validation,balanced_accuracy,0.2458,0.4833,0.2458,0.3258,0.1035,0.5208,0.0,,,,,,,,
+classification,dinov2_small,DINOv2-S/14 linear,phenobench,cwfid,external_validation,balanced_accuracy,0.5,0.9833,0.5,0.4958,0.1293,0.066,0.0,,,,,,,,
+classification,efficientnetv2_s,EfficientNetV2-S,phenobench,cwfid,external_validation,balanced_accuracy,0.5,0.0167,0.5,0.0164,0.9829,1.965,59.0,,,,,,,,
+classification,resnet50,ResNet50,phenobench,cwfid,external_validation,balanced_accuracy,0.0847,0.1667,0.0847,0.1429,0.3428,0.5147,0.0,,,,,,,,
+classification,swin_tiny,Swin-T,phenobench,cwfid,external_validation,balanced_accuracy,0.5085,0.0333,0.5085,0.0333,0.5826,0.748,0.0,,,,,,,,

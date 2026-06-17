@@ -1,0 +1,13 @@
+sensor_conditions:
+  - name: rgb
+    channels: [red, green, blue]
+  - name: nir
+    channels: [nir]
+  - name: rgb_nir
+    channels: [red, green, blue, nir]
+  - name: missing_nir_at_test
+    train_channels: [red, green, blue, nir]
+    test_channels: [red, green, blue]
+  - name: random_channel_dropout
+    channels: [red, green, blue, nir]
+    dropout_probability: 0.25

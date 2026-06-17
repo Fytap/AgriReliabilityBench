@@ -1,0 +1,11 @@
+model,train_dataset,external_dataset,task,metric,score,accuracy,balanced_accuracy,macro_f1,ece,brier,miou,precision,recall,mAP50,mAP50-95,n_samples,class_imbalance_note
+RT-DETR-L,cropandweed,cwfid,detection,mAP50-95,0.1189,,,,,,,0.2714,0.1712,0.1718,0.1189,60,crop and weed annotations available; weed-presence classification is highly imbalanced
+YOLO11m,cropandweed,cwfid,detection,mAP50-95,0.0563,,,,,,,0.144,0.0872,0.084,0.0563,60,crop and weed annotations available; weed-presence classification is highly imbalanced
+YOLOv12N,cropandweed,cwfid,detection,mAP50-95,0.1,,,,,,,0.245,0.14,0.144,0.1,60,crop and weed annotations available; weed-presence classification is highly imbalanced
+YOLOv5l6u,cropandweed,cwfid,detection,mAP50-95,0.0928,,,,,,,0.261,0.105,0.135,0.0928,60,crop and weed annotations available; weed-presence classification is highly imbalanced
+YOLOv8m,cropandweed,cwfid,detection,mAP50-95,0.0959,,,,,,,0.234,0.11,0.14,0.0959,60,crop and weed annotations available; weed-presence classification is highly imbalanced
+RT-DETR-L,phenobench,cwfid,detection,mAP50-95,0.0585,,,,,,,0.2459,0.2185,0.0899,0.0585,60,crop and weed annotations available; weed-presence classification is highly imbalanced
+YOLO11m,phenobench,cwfid,detection,mAP50-95,0.0004,,,,,,,0.0075,0.0032,0.0016,0.0004,60,crop and weed annotations available; weed-presence classification is highly imbalanced
+YOLOv12N,phenobench,cwfid,detection,mAP50-95,0.0224,,,,,,,0.15,0.0767,0.0492,0.0224,60,crop and weed annotations available; weed-presence classification is highly imbalanced
+YOLOv5l6u,phenobench,cwfid,detection,mAP50-95,0.0003,,,,,,,0.0024,0.0252,0.0014,0.0003,60,crop and weed annotations available; weed-presence classification is highly imbalanced
+YOLOv8m,phenobench,cwfid,detection,mAP50-95,0.0011,,,,,,,0.0202,0.021,0.0037,0.0011,60,crop and weed annotations available; weed-presence classification is highly imbalanced

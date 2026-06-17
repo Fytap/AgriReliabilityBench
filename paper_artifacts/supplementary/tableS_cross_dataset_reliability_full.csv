@@ -1,0 +1,31 @@
+task,model,direction,metric,in_domain_score,external_score,absolute_drop,retention,latency_ms_batch1,fps_batch1
+classification,ConvNeXtV2-Tiny,CropAndWeed -> PhenoBench,balanced_accuracy,0.8724,0.586,0.2864,0.6717,9.9,101.02
+classification,ConvNeXtV2-Tiny,PhenoBench -> CropAndWeed,balanced_accuracy,0.5734,0.5098,0.0636,0.8891,9.92,100.83
+classification,DINOv2-S/14 linear,CropAndWeed -> PhenoBench,balanced_accuracy,0.8427,0.748,0.0947,0.8876,9.7,103.08
+classification,DINOv2-S/14 linear,PhenoBench -> CropAndWeed,balanced_accuracy,0.7235,0.5199,0.2036,0.7186,9.63,103.84
+classification,EfficientNetV2-S,CropAndWeed -> PhenoBench,balanced_accuracy,0.8713,0.6801,0.1912,0.7805,10.67,93.74
+classification,EfficientNetV2-S,PhenoBench -> CropAndWeed,balanced_accuracy,0.5857,0.448,0.1377,0.7649,10.7,93.48
+classification,ResNet50,CropAndWeed -> PhenoBench,balanced_accuracy,0.8377,0.6244,0.2133,0.7454,3.66,273.05
+classification,ResNet50,PhenoBench -> CropAndWeed,balanced_accuracy,0.5912,0.4652,0.1259,0.787,3.72,268.7
+classification,Swin-T,CropAndWeed -> PhenoBench,balanced_accuracy,0.8697,0.4603,0.4094,0.5292,13.56,73.77
+classification,Swin-T,PhenoBench -> CropAndWeed,balanced_accuracy,0.502,0.5039,-0.0018,1.0037,13.45,74.37
+detection,RT-DETR-L,CropAndWeed -> PhenoBench,mAP50-95,0.5914,0.2767,0.3148,0.4678,55.52,18.01
+detection,RT-DETR-L,PhenoBench -> CropAndWeed,mAP50-95,0.5072,0.2076,0.2996,0.4094,65.11,15.36
+detection,YOLO11m,CropAndWeed -> PhenoBench,mAP50-95,0.669,0.409,0.26,0.6114,32.67,30.61
+detection,YOLO11m,PhenoBench -> CropAndWeed,mAP50-95,0.625,0.128,0.497,0.2048,47.98,20.84
+detection,YOLOv12N,CropAndWeed -> PhenoBench,mAP50-95,0.644,0.379,0.265,0.5885,34.66,28.85
+detection,YOLOv12N,PhenoBench -> CropAndWeed,mAP50-95,0.614,0.182,0.432,0.2964,47.1,21.23
+detection,YOLOv5l6u,CropAndWeed -> PhenoBench,mAP50-95,0.661,0.403,0.258,0.6097,35.48,28.18
+detection,YOLOv5l6u,PhenoBench -> CropAndWeed,mAP50-95,0.627,0.176,0.451,0.2807,52.04,19.22
+detection,YOLOv8m,CropAndWeed -> PhenoBench,mAP50-95,0.668,0.386,0.282,0.5778,32.46,30.8
+detection,YOLOv8m,PhenoBench -> CropAndWeed,mAP50-95,0.624,0.18,0.444,0.2885,47.61,21.0
+segmentation,DeepLabV3+,CropAndWeed -> PhenoBench,miou,0.6999,0.3389,0.361,0.4842,4.27,234.37
+segmentation,DeepLabV3+,PhenoBench -> CropAndWeed,miou,0.8753,0.4386,0.4367,0.5011,4.28,233.75
+segmentation,Mask2Former-Swin-T,CropAndWeed -> PhenoBench,miou,0.8839,0.5794,0.3045,0.6555,59.16,16.9
+segmentation,Mask2Former-Swin-T,PhenoBench -> CropAndWeed,miou,0.8746,0.4395,0.4351,0.5025,59.63,16.77
+segmentation,SegFormer-B0,CropAndWeed -> PhenoBench,miou,0.8453,0.5117,0.3336,0.6053,10.54,94.88
+segmentation,SegFormer-B0,PhenoBench -> CropAndWeed,miou,0.8657,0.381,0.4847,0.4401,10.56,94.72
+segmentation,U-Net,CropAndWeed -> PhenoBench,miou,0.5732,0.3744,0.1988,0.6532,4.47,223.82
+segmentation,U-Net,PhenoBench -> CropAndWeed,miou,0.8806,0.4088,0.4718,0.4643,4.46,224.24
+segmentation,UPerNet-Swin-T,CropAndWeed -> PhenoBench,miou,0.7848,0.3651,0.4197,0.4652,15.05,66.46
+segmentation,UPerNet-Swin-T,PhenoBench -> CropAndWeed,miou,0.7943,0.3781,0.4162,0.476,15.08,66.32

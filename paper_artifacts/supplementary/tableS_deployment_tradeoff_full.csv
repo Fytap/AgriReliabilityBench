@@ -1,0 +1,31 @@
+task,model,dataset,architecture,params_millions,checkpoint_size_mb,latency_ms_batch1,fps_batch1,peak_vram_mb,mean_external_score,mean_cross_dataset_retention
+classification,ConvNeXtV2-Tiny,CropAndWeed,convnextv2_tiny,27.87,106.4,9.9,101.02,158.3,0.586,0.6717
+classification,ConvNeXtV2-Tiny,PhenoBench,convnextv2_tiny,27.87,106.4,9.92,100.83,158.3,0.5098,0.8891
+classification,DINOv2-S/14 linear,CropAndWeed,vit_small_patch14_dinov2,22.06,84.2,9.7,103.08,137.1,0.748,0.8876
+classification,DINOv2-S/14 linear,PhenoBench,vit_small_patch14_dinov2,22.06,84.2,9.63,103.84,137.1,0.5199,0.7186
+classification,EfficientNetV2-S,CropAndWeed,tf_efficientnetv2_s,20.18,77.8,10.67,93.74,120.2,0.6801,0.7805
+classification,EfficientNetV2-S,PhenoBench,tf_efficientnetv2_s,20.18,77.8,10.7,93.48,120.2,0.448,0.7649
+classification,ResNet50,CropAndWeed,resnet50,23.51,90.0,3.66,273.05,134.0,0.6244,0.7454
+classification,ResNet50,PhenoBench,resnet50,23.51,90.0,3.72,268.7,134.0,0.4652,0.787
+classification,Swin-T,CropAndWeed,swin_tiny_patch4_window7_224,27.52,105.0,13.56,73.77,154.5,0.4603,0.5292
+classification,Swin-T,PhenoBench,swin_tiny_patch4_window7_224,27.52,105.0,13.45,74.37,154.5,0.5039,1.0037
+detection,RT-DETR-L,CropAndWeed,rtdetr,32.81,63.1,55.52,18.01,257.3,0.2767,0.4678
+detection,RT-DETR-L,PhenoBench,rtdetr,32.81,63.1,65.11,15.36,350.2,0.2076,0.4094
+detection,YOLO11m,CropAndWeed,yolo,20.05,38.7,32.67,30.61,593.1,0.409,0.6114
+detection,YOLO11m,PhenoBench,yolo,20.05,38.8,47.98,20.84,768.2,0.128,0.2048
+detection,YOLOv12N,CropAndWeed,yolo,2.55,5.3,34.66,28.85,151.1,0.379,0.5885
+detection,YOLOv12N,PhenoBench,yolo,2.55,5.4,47.1,21.23,333.4,0.182,0.2964
+detection,YOLOv5l6u,CropAndWeed,yolo,86.02,164.7,35.48,28.18,535.5,0.403,0.6097
+detection,YOLOv5l6u,PhenoBench,yolo,86.02,164.8,52.04,19.22,979.5,0.176,0.2807
+detection,YOLOv8m,CropAndWeed,yolo,25.86,49.7,32.46,30.8,482.8,0.386,0.5778
+detection,YOLOv8m,PhenoBench,yolo,25.86,49.8,47.61,21.0,630.3,0.18,0.2885
+segmentation,DeepLabV3+,CropAndWeed,deeplabv3plus,26.68,102.1,4.27,234.37,290.1,0.3389,0.4842
+segmentation,DeepLabV3+,PhenoBench,deeplabv3plus,26.68,102.1,4.28,233.75,291.0,0.4386,0.5011
+segmentation,Mask2Former-Swin-T,CropAndWeed,mask2former,47.4,181.0,59.16,16.9,504.7,0.5794,0.6555
+segmentation,Mask2Former-Swin-T,PhenoBench,mask2former,47.4,181.0,59.63,16.77,506.0,0.4395,0.5025
+segmentation,SegFormer-B0,CropAndWeed,segformer,3.71,14.2,10.54,94.88,370.5,0.5117,0.6053
+segmentation,SegFormer-B0,PhenoBench,segformer,3.71,14.2,10.56,94.72,370.5,0.381,0.4401
+segmentation,U-Net,CropAndWeed,unet,32.52,124.4,4.47,223.82,357.5,0.3744,0.6532
+segmentation,U-Net,PhenoBench,unet,32.52,124.4,4.46,224.24,357.0,0.4088,0.4643
+segmentation,UPerNet-Swin-T,CropAndWeed,upernet,36.74,140.3,15.05,66.46,230.6,0.3651,0.4652
+segmentation,UPerNet-Swin-T,PhenoBench,upernet,36.74,140.3,15.08,66.32,228.4,0.3781,0.476

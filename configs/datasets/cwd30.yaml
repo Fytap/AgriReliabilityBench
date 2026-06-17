@@ -1,0 +1,9 @@
+name: cwd30
+task: classification
+root: data/raw/cwd30
+splits:
+  train: train
+  val: val
+  test: test
+classes: auto
+notes: "CWD30 crop-weed fine-grained recognition; use as source dataset, not as new dataset contribution."

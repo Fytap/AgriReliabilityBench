@@ -1,0 +1,5 @@
+task,model,primary_metric,clean_score,worst_corruption,worst_score,worst_retention,interpretation
+classification,Swin-T,balanced_accuracy,0.8696895764119601,gaussian_blur_7,0.790015919158361,0.9083883957971474,lower retention indicates stronger severity-induced degradation in this representative audit
+classification,DINOv2-S,balanced_accuracy,0.8427169850498339,gaussian_blur_7,0.7612852990033223,0.9033700667114284,lower retention indicates stronger severity-induced degradation in this representative audit
+segmentation,U-Net,miou,0.5732166180371466,contrast_0.5,0.47605809910937635,0.830502961933539,lower retention indicates stronger severity-induced degradation in this representative audit
+segmentation,SegFormer-B0,miou,0.8453267494005402,gaussian_blur_7,0.7013506500490263,0.8296799439345627,lower retention indicates stronger severity-induced degradation in this representative audit

@@ -1,0 +1,3 @@
+# Optional class mapping between CWD30 and CropAndWeed-derived labels.
+mapping: {}
+notes: "Keep mapping conservative. Invalid mappings weaken the paper."

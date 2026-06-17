@@ -1,0 +1,16 @@
+name: agriculture_vision
+task: multispectral_segmentation
+root: data/raw/agriculture_vision
+channels: [red, green, blue, nir]
+image_size: [512, 512]
+classes:
+  - double_plant
+  - drydown
+  - endrow
+  - nutrient_deficiency
+  - planter_skip
+  - storm_damage
+  - water
+  - waterway
+  - weed_cluster
+notes: "Aerial RGB+NIR agricultural pattern segmentation. Core dataset for sensor stress tests."

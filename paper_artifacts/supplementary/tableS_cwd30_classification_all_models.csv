@@ -1,0 +1,11 @@
+model,train_dataset,external_dataset,task,metric,score,accuracy,balanced_accuracy,macro_f1,ece,brier,miou,precision,recall,mAP50,mAP50-95,n_samples,class_imbalance_note
+ConvNeXtV2-Tiny,cropandweed,cwd30,classification,balanced_accuracy,,0.3649,0.3074,0.3159,0.3754,0.8036,,,,,,196275,10 crop categories and 20 weed categories collapsed to binary classification
+DINOv2-S/14 linear,cropandweed,cwd30,classification,balanced_accuracy,,0.4528,0.3575,0.3578,0.3326,0.7375,,,,,,196275,10 crop categories and 20 weed categories collapsed to binary classification
+EfficientNetV2-S,cropandweed,cwd30,classification,balanced_accuracy,,0.3468,0.3308,0.3276,0.4693,0.9923,,,,,,196275,10 crop categories and 20 weed categories collapsed to binary classification
+ResNet50,cropandweed,cwd30,classification,balanced_accuracy,,0.2883,0.3068,0.2847,0.4941,1.0025,,,,,,196275,10 crop categories and 20 weed categories collapsed to binary classification
+Swin-T,cropandweed,cwd30,classification,balanced_accuracy,,0.3271,0.3282,0.3166,0.3937,0.8018,,,,,,196275,10 crop categories and 20 weed categories collapsed to binary classification
+ConvNeXtV2-Tiny,phenobench,cwd30,classification,balanced_accuracy,,0.5238,0.4977,0.4893,0.0803,0.5191,,,,,,196275,10 crop categories and 20 weed categories collapsed to binary classification
+DINOv2-S/14 linear,phenobench,cwd30,classification,balanced_accuracy,,0.6932,0.5,0.4094,0.1466,0.4556,,,,,,196275,10 crop categories and 20 weed categories collapsed to binary classification
+EfficientNetV2-S,phenobench,cwd30,classification,balanced_accuracy,,0.4804,0.5829,0.4795,0.4746,,,,,,,196275,10 crop categories and 20 weed categories collapsed to binary classification
+ResNet50,phenobench,cwd30,classification,balanced_accuracy,,0.304,0.3436,0.3034,0.219,0.5352,,,,,,196275,10 crop categories and 20 weed categories collapsed to binary classification
+Swin-T,phenobench,cwd30,classification,balanced_accuracy,,0.3022,0.4915,0.2332,0.481,0.942,,,,,,196275,10 crop categories and 20 weed categories collapsed to binary classification

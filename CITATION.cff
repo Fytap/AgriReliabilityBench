@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software or its derived benchmark artifacts, please cite the archived release."
+title: "AgriReliabilityBench: Reproducibility package for agricultural visual model reliability benchmarking"
+version: "1.0.0"
+date-released: "2026-06-17"
+type: software
+repository-code: "https://github.com/Fytap/AgriReliabilityBench"
+authors:
+  - name: "AgriReliabilityBench contributors"
+license: MIT
+abstract: "Code, configurations, derived result tables, figures, and reproducibility scripts for an agricultural visual model reliability benchmark."
+keywords:
+  - agricultural vision
+  - crop-weed perception
+  - dataset shift
+  - model reliability
+  - calibration

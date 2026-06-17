@@ -1,0 +1,27 @@
+classification:
+  - name: resnet50
+    family: cnn
+    status: planned
+  - name: convnext_tiny
+    family: convnext
+    status: planned
+  - name: dinov2_linear
+    family: foundation_feature
+    status: feasible_after_smoke
+detection:
+  - name: yolov8
+    family: one_stage_detector
+    status: planned
+  - name: rt_detr
+    family: transformer_detector
+    status: feasible_after_smoke
+segmentation:
+  - name: unet
+    family: encoder_decoder
+    status: planned
+  - name: deeplabv3_plus
+    family: atrous_encoder_decoder
+    status: planned
+  - name: segformer_b0
+    family: transformer_segmentation
+    status: planned

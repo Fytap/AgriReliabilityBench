@@ -1,0 +1,7 @@
+external_dataset,task,train_dataset,metric,n_models,worst_model,worst_score,median_score,strongest_model,strongest_score,interpretation
+cwfid,classification,cropandweed,balanced_accuracy,5,Swin-T,0.4153,0.4831,DINOv2-S/14 linear,0.5,"low scores likely combine visual domain shift, annotation-policy mismatch, and dataset/task imbalance"
+cwfid,classification,phenobench,balanced_accuracy,5,ResNet50,0.0847,0.5,Swin-T,0.5085,"low scores likely combine visual domain shift, annotation-policy mismatch, and dataset/task imbalance"
+cwfid,detection,cropandweed,mAP50-95,5,YOLO11m,0.0563,0.0959,RT-DETR-L,0.1189,"low scores likely combine visual domain shift, annotation-policy mismatch, and dataset/task imbalance"
+cwfid,detection,phenobench,mAP50-95,5,YOLOv5l6u,0.0003,0.0011,RT-DETR-L,0.0585,"low scores likely combine visual domain shift, annotation-policy mismatch, and dataset/task imbalance"
+cwfid,segmentation,cropandweed,miou,5,SegFormer-B0,0.211,0.3532,Mask2Former-Swin-T,0.4722,"low scores likely combine visual domain shift, annotation-policy mismatch, and dataset/task imbalance"
+cwfid,segmentation,phenobench,miou,5,UPerNet-Swin-T,0.2817,0.3094,Mask2Former-Swin-T,0.4265,"low scores likely combine visual domain shift, annotation-policy mismatch, and dataset/task imbalance"

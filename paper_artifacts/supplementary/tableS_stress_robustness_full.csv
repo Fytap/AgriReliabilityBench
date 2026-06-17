@@ -1,0 +1,31 @@
+task,model,dataset,metric,clean_score,worst_corruption,worst_stressed_score,worst_absolute_drop,mean_retention_across_corruptions,n_corruptions
+classification,ConvNeXtV2-Tiny,CropAndWeed,balanced_accuracy,0.8724,gaussian_blur_3,0.8567,0.0157,0.9955,6
+classification,ConvNeXtV2-Tiny,PhenoBench,balanced_accuracy,0.5734,brightness_minus_20,0.558,0.0154,1.0067,6
+classification,DINOv2-S/14 linear,CropAndWeed,balanced_accuracy,0.8427,jpeg_quality_50,0.8315,0.0112,0.9968,6
+classification,DINOv2-S/14 linear,PhenoBench,balanced_accuracy,0.7235,gaussian_blur_3,0.5,0.2235,0.8556,6
+classification,EfficientNetV2-S,CropAndWeed,balanced_accuracy,0.8713,gaussian_blur_3,0.7571,0.1142,0.9729,6
+classification,EfficientNetV2-S,PhenoBench,balanced_accuracy,0.5857,contrast_0.7,0.4465,0.1392,0.8904,6
+classification,ResNet50,CropAndWeed,balanced_accuracy,0.8377,gaussian_blur_3,0.7704,0.0673,0.9761,6
+classification,ResNet50,PhenoBench,balanced_accuracy,0.5912,gaussian_blur_3,0.4684,0.1227,0.9587,6
+classification,Swin-T,CropAndWeed,balanced_accuracy,0.8697,gaussian_blur_3,0.8544,0.0153,0.9955,6
+classification,Swin-T,PhenoBench,balanced_accuracy,0.502,gaussian_blur_3,0.5014,0.0007,1.0002,6
+detection,RT-DETR-L,CropAndWeed,mAP50-95,0.5914,gaussian_blur_3,0.4654,0.126,0.8868,6
+detection,RT-DETR-L,PhenoBench,mAP50-95,0.5072,gaussian_blur_3,0.4505,0.0567,0.9596,6
+detection,YOLO11m,CropAndWeed,mAP50-95,0.669,gaussian_blur_3,0.541,0.128,0.8889,6
+detection,YOLO11m,PhenoBench,mAP50-95,0.625,gaussian_blur_3,0.494,0.131,0.9315,6
+detection,YOLOv12N,CropAndWeed,mAP50-95,0.644,gaussian_blur_3,0.502,0.142,0.8781,6
+detection,YOLOv12N,PhenoBench,mAP50-95,0.614,gaussian_blur_3,0.479,0.135,0.9313,6
+detection,YOLOv5l6u,CropAndWeed,mAP50-95,0.661,jpeg_quality_50,0.515,0.146,0.8676,6
+detection,YOLOv5l6u,PhenoBench,mAP50-95,0.627,gaussian_blur_3,0.507,0.12,0.9343,6
+detection,YOLOv8m,CropAndWeed,mAP50-95,0.668,gaussian_blur_3,0.528,0.14,0.8795,6
+detection,YOLOv8m,PhenoBench,mAP50-95,0.624,gaussian_blur_3,0.506,0.118,0.9351,6
+segmentation,DeepLabV3+,CropAndWeed,miou,0.6999,contrast_0.7,0.6487,0.0512,0.9748,6
+segmentation,DeepLabV3+,PhenoBench,miou,0.8753,gaussian_blur_3,0.7382,0.137,0.9401,6
+segmentation,Mask2Former-Swin-T,CropAndWeed,miou,0.8839,gaussian_blur_3,0.7771,0.1069,0.9704,6
+segmentation,Mask2Former-Swin-T,PhenoBench,miou,0.8746,gaussian_blur_3,0.8219,0.0527,0.986,6
+segmentation,SegFormer-B0,CropAndWeed,miou,0.8453,gaussian_blur_3,0.7948,0.0505,0.9791,6
+segmentation,SegFormer-B0,PhenoBench,miou,0.8657,gaussian_blur_3,0.7881,0.0776,0.9791,6
+segmentation,U-Net,CropAndWeed,miou,0.5732,contrast_0.7,0.5322,0.041,0.9731,6
+segmentation,U-Net,PhenoBench,miou,0.8806,gaussian_blur_3,0.7212,0.1594,0.9364,6
+segmentation,UPerNet-Swin-T,CropAndWeed,miou,0.7848,brightness_minus_20,0.707,0.0778,0.9619,6
+segmentation,UPerNet-Swin-T,PhenoBench,miou,0.7943,contrast_0.7,0.7763,0.018,0.9927,6

@@ -1,0 +1,3 @@
+dataset,images,weed_positive_images,weed_negative_images,crop_weed_distribution,object_counts
+CWFID,60,59,1,crop and weed annotations available; weed-presence classification is highly imbalanced,available in annotation files; not fully summarized locally
+CWD30,196275,class-collapse dependent,class-collapse dependent,10 crop categories and 20 weed categories collapsed to binary classification,not applicable

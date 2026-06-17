@@ -1,0 +1,9 @@
+dataset,task,train dataset,strongest observed model,metric,score,note
+CWFID,classification,C&W,DINOv2-S,balanced_accuracy,0.5,external test only; no training/validation/model selection
+CWFID,classification,PB,Swin-T,balanced_accuracy,0.5085,external test only; no training/validation/model selection
+CWFID,detection,C&W,RT-DETR-L,mAP50-95,0.1189,external test only; no training/validation/model selection
+CWFID,detection,PB,RT-DETR-L,mAP50-95,0.0585,external test only; no training/validation/model selection
+CWFID,segmentation,C&W,Mask2Former-Swin-T,miou,0.4722,external test only; no training/validation/model selection
+CWFID,segmentation,PB,Mask2Former-Swin-T,miou,0.4265,external test only; no training/validation/model selection
+CWD30,classification,C&W,DINOv2-S,balanced_accuracy,0.3575,external test only; no training/validation/model selection
+CWD30,classification,PB,EffNetV2-S,balanced_accuracy,0.5829,external test only; no training/validation/model selection

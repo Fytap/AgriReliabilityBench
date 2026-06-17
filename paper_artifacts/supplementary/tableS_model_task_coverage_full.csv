@@ -1,0 +1,31 @@
+task,model,dataset,training_epoch,training_complete_300ep,in_domain_eval,cross_dataset_eval,stress_corruptions_done,deployment_probe
+classification,ConvNeXtV2-Tiny,cropandweed,300,True,True,True,6,True
+classification,ConvNeXtV2-Tiny,phenobench,300,True,True,True,6,True
+classification,DINOv2-S/14 linear,cropandweed,300,True,True,True,6,True
+classification,DINOv2-S/14 linear,phenobench,300,True,True,True,6,True
+classification,EfficientNetV2-S,cropandweed,300,True,True,True,6,True
+classification,EfficientNetV2-S,phenobench,300,True,True,True,6,True
+classification,ResNet50,cropandweed,300,True,True,True,6,True
+classification,ResNet50,phenobench,300,True,True,True,6,True
+classification,Swin-T,cropandweed,300,True,True,True,6,True
+classification,Swin-T,phenobench,300,True,True,True,6,True
+detection,RT-DETR-L,cropandweed,300,True,True,True,6,True
+detection,RT-DETR-L,phenobench,300,True,True,True,6,True
+detection,YOLO11m,cropandweed,300,True,True,True,6,True
+detection,YOLO11m,phenobench,300,True,True,True,6,True
+detection,YOLOv12N,cropandweed,300,True,True,True,6,True
+detection,YOLOv12N,phenobench,300,True,True,True,6,True
+detection,YOLOv5l6u,cropandweed,300,True,True,True,6,True
+detection,YOLOv5l6u,phenobench,300,True,True,True,6,True
+detection,YOLOv8m,cropandweed,300,True,True,True,6,True
+detection,YOLOv8m,phenobench,300,True,True,True,6,True
+segmentation,DeepLabV3+,cropandweed,300,True,True,True,6,True
+segmentation,DeepLabV3+,phenobench,300,True,True,True,6,True
+segmentation,Mask2Former-Swin-T,cropandweed,300,True,True,True,6,True
+segmentation,Mask2Former-Swin-T,phenobench,300,True,True,True,6,True
+segmentation,SegFormer-B0,cropandweed,300,True,True,True,6,True
+segmentation,SegFormer-B0,phenobench,300,True,True,True,6,True
+segmentation,U-Net,cropandweed,300,True,True,True,6,True
+segmentation,U-Net,phenobench,300,True,True,True,6,True
+segmentation,UPerNet-Swin-T,cropandweed,300,True,True,True,6,True
+segmentation,UPerNet-Swin-T,phenobench,300,True,True,True,6,True

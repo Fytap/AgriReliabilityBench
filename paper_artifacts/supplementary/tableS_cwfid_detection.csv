@@ -1,0 +1,11 @@
+task,model,model_label,train_dataset,test_dataset,scope,primary_metric_name,primary_metric,accuracy,balanced_accuracy,macro_f1,ece,brier,high_conf_wrong_0.9,miou,iou_background,iou_crop,iou_weed,precision,recall,mAP50,mAP50-95
+detection,rtdetr_l,RT-DETR-L,cropandweed,cwfid,external_validation,mAP50-95,0.1189,,,,,,,,,,,0.2714,0.1712,0.1718,0.1189
+detection,yolo11m,YOLO11m,cropandweed,cwfid,external_validation,mAP50-95,0.0563,,,,,,,,,,,0.144,0.0872,0.084,0.0563
+detection,yolov12n,YOLOv12N,cropandweed,cwfid,external_validation,mAP50-95,0.1,,,,,,,,,,,0.245,0.14,0.144,0.1
+detection,yolov5l6u,YOLOv5l6u,cropandweed,cwfid,external_validation,mAP50-95,0.0928,,,,,,,,,,,0.261,0.105,0.135,0.0928
+detection,yolov8m,YOLOv8m,cropandweed,cwfid,external_validation,mAP50-95,0.0959,,,,,,,,,,,0.234,0.11,0.14,0.0959
+detection,rtdetr_l,RT-DETR-L,phenobench,cwfid,external_validation,mAP50-95,0.0585,,,,,,,,,,,0.2459,0.2185,0.0899,0.0585
+detection,yolo11m,YOLO11m,phenobench,cwfid,external_validation,mAP50-95,0.0004,,,,,,,,,,,0.0075,0.0032,0.0016,0.0004
+detection,yolov12n,YOLOv12N,phenobench,cwfid,external_validation,mAP50-95,0.0224,,,,,,,,,,,0.15,0.0767,0.0492,0.0224
+detection,yolov5l6u,YOLOv5l6u,phenobench,cwfid,external_validation,mAP50-95,0.0003,,,,,,,,,,,0.0024,0.0252,0.0014,0.0003
+detection,yolov8m,YOLOv8m,phenobench,cwfid,external_validation,mAP50-95,0.0011,,,,,,,,,,,0.0202,0.021,0.0037,0.0011

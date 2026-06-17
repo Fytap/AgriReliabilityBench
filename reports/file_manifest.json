@@ -1,0 +1,762 @@
+[
+  {
+    "path": ".github/workflows/smoke-test.yml",
+    "bytes": 357,
+    "sha256": "1dbf75084a9782b5b498157b208f5ded9eae4156a2ba50f7685c96af29663870"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 226,
+    "sha256": "720a82ec61cc8a25e95c7c0e10f7c018beb845ff752b55eadb0f6df0d7542fd4"
+  },
+  {
+    "path": ".zenodo.json",
+    "bytes": 640,
+    "sha256": "22c3caa440e27de99cc03ae4a5af1a9194c04fbd5c2089c0adf39178750f5349"
+  },
+  {
+    "path": "CITATION.cff",
+    "bytes": 635,
+    "sha256": "bed8ef41f38eaf4cfeab2de86302af957d97f610a970fc12ddbaa6c308be516f"
+  },
+  {
+    "path": "configs/datasets/agriculture_vision.yaml",
+    "bytes": 393,
+    "sha256": "faa33acde09a74ebda8e7286c9106e6bfc789af2f9295652920898ce57c9db9b"
+  },
+  {
+    "path": "configs/datasets/cropandweed.yaml",
+    "bytes": 1200,
+    "sha256": "26910069f15d088cd119f308cf87e9acbcd02ff2452a694f131a9df5941b8b29"
+  },
+  {
+    "path": "configs/datasets/cwd30.yaml",
+    "bytes": 222,
+    "sha256": "bb172a9dcce4c9a6e618f619537dceb17c55350737316c227b8d05ce76767d44"
+  },
+  {
+    "path": "configs/datasets/deepweeds.yaml",
+    "bytes": 253,
+    "sha256": "82dcecc86b23e874a6a992b418dc51b8599fe0ca788c38ff60d3fea03ae5d4ff"
+  },
+  {
+    "path": "configs/datasets/phenobench.yaml",
+    "bytes": 816,
+    "sha256": "9cb7f5cdcb28d34d2777ed7a29d65fe8a814abac0e24edee546b4e11f712501c"
+  },
+  {
+    "path": "configs/datasets/weedmap.yaml",
+    "bytes": 233,
+    "sha256": "496cbbfa9f4c845e10de2f4fa069acee33537b593ec577284a81cbe3651ffa0a"
+  },
+  {
+    "path": "configs/experiments/cross_dataset.yaml",
+    "bytes": 666,
+    "sha256": "20aaec09423abb1b29505f6a8031553cdc7f5a9947c34a77b9ae65c0ec39c3a1"
+  },
+  {
+    "path": "configs/experiments/label_budget.yaml",
+    "bytes": 220,
+    "sha256": "78b3eb3bdc57bfea150380e4ca3c22b412b13d6ce1aee97618fccef6d074214f"
+  },
+  {
+    "path": "configs/experiments/models.yaml",
+    "bytes": 624,
+    "sha256": "d7fa3974db1e508d04c4d1d0efbeef5baea414c9cb2f476212a19014d256c434"
+  },
+  {
+    "path": "configs/experiments/stress_tests.yaml",
+    "bytes": 288,
+    "sha256": "6bfc7642c4451cfb37f3b48e725cf6f2a768249805d7cc265037cb5d8af3471c"
+  },
+  {
+    "path": "configs/label_maps/cwd30_cropandweed.yaml",
+    "bytes": 157,
+    "sha256": "eb3de0724e701192882dc9030706d828c4cd7915403cdbfc7435969aecfcdec4"
+  },
+  {
+    "path": "configs/label_maps/cwd30_deepweeds.yaml",
+    "bytes": 271,
+    "sha256": "8c16c85cf3f431da267ca2d6234c10bda9ce24823861d3ba2a7a1289b8d3fce0"
+  },
+  {
+    "path": "configs/models/classification_baselines.yaml",
+    "bytes": 671,
+    "sha256": "70121a51a12729e4fd78267e0393a95ddc17d56ff49e6e82ebb103d95fab0a8d"
+  },
+  {
+    "path": "configs/models/recommended_benchmark_models.yaml",
+    "bytes": 1927,
+    "sha256": "99dcf49655d8969ee81f864dfed4ef138aeefab468eda4fd10cd3dd36bb862a0"
+  },
+  {
+    "path": "configs/models/segmentation_baselines.yaml",
+    "bytes": 352,
+    "sha256": "823410f2110c7669ff8e7532ac4374827dffab1f9eb786d869e2bddef2639255"
+  },
+  {
+    "path": "configs/stressors/image_quality.yaml",
+    "bytes": 527,
+    "sha256": "8a8ed7655895f1b615d038067a30fbe6d1de40c213d254d0b6fc69844e314d5c"
+  },
+  {
+    "path": "configs/stressors/sensor_ablation.yaml",
+    "bytes": 369,
+    "sha256": "8411db188fa84cc14647269bb4c6672b4101196712ceaa631a9fbedd24d8865e"
+  },
+  {
+    "path": "data/processed/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "data/raw/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "DATA_AND_CODE_AVAILABILITY.md",
+    "bytes": 680,
+    "sha256": "32848eaa63b43afe25df5207969b1990f51b214ee4b096295a0f9692fcc8deff"
+  },
+  {
+    "path": "DATASETS.md",
+    "bytes": 1011,
+    "sha256": "bfeadb4925c81ab1af63daa308c5e9ff950ff1d9a172dddeed5961e769fbca3a"
+  },
+  {
+    "path": "environment.yml",
+    "bytes": 320,
+    "sha256": "78853ec898e51cd703be571fd408df7367946ca05e4317db7bdf73a2b7fc7e72"
+  },
+  {
+    "path": "GITHUB_PUBLISHING.md",
+    "bytes": 910,
+    "sha256": "b90958b75f6d61738a06cd36469b3a4e45a6c78089e4ccd319b64353fb2df10a"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1111,
+    "sha256": "302c084e31f0506a8c94bda5e0844efb8802f01b614493dd6d59a96ecc86c028"
+  },
+  {
+    "path": "METADATA_TO_CONFIRM.md",
+    "bytes": 592,
+    "sha256": "dfd2a5fe4e10cc86973b8946636a6fd94c5a1d3cf6c8672f5829338adeb8d397"
+  },
+  {
+    "path": "paper_artifacts/figures/benchmark_pipeline_schematic.pdf",
+    "bytes": 55422,
+    "sha256": "c2f13b1344155fcbcd98cc7b77a1e1bb800189b10b838e9981ae1030add103fd"
+  },
+  {
+    "path": "paper_artifacts/figures/classification_pareto_latency_external.pdf",
+    "bytes": 21192,
+    "sha256": "cf7ecd12f40e9c1385bee0ddbfa5ef236638d4ea330247ebde9951eb8b6a061d"
+  },
+  {
+    "path": "paper_artifacts/figures/classification_reliability_diagrams.pdf",
+    "bytes": 19167,
+    "sha256": "fb0910091c6f0f7e142fd18a105800ff7552cc02e9954f8a74dbb40174cece7f"
+  },
+  {
+    "path": "paper_artifacts/figures/classification_risk_coverage_curves.pdf",
+    "bytes": 28189,
+    "sha256": "244f29bd49d7ac9395db89ba3620005c9b5102e17af10335533dadab56887fb8"
+  },
+  {
+    "path": "paper_artifacts/figures/classification_stress_readable.pdf",
+    "bytes": 23279,
+    "sha256": "b3d7f8c063f731f4d5db742573a9b0e742516320d3b03e88c9680e1361cec6f6"
+  },
+  {
+    "path": "paper_artifacts/figures/detection_pareto_latency_external.pdf",
+    "bytes": 20610,
+    "sha256": "ab343f1400c3c436231b1355ae236bfdeae822b1ddf31d91c7ce045a194bfd2a"
+  },
+  {
+    "path": "paper_artifacts/figures/detection_stress_readable.pdf",
+    "bytes": 24614,
+    "sha256": "abe4149b4c0ad8f997aad1884dead9f5d7ebd319284c40299cd1eff6b56a2e6f"
+  },
+  {
+    "path": "paper_artifacts/figures/failure_audit_summary_classification.pdf",
+    "bytes": 425252,
+    "sha256": "823ef745ab3ac4ea94530e035979a312c9e603e455580bb52866c65fdd294874"
+  },
+  {
+    "path": "paper_artifacts/figures/failure_audit_summary_dense_stress.pdf",
+    "bytes": 177492,
+    "sha256": "692ef84f8afea75fdbba9c702de203bf41aef910f69a7e16cac5537f3bf700c3"
+  },
+  {
+    "path": "paper_artifacts/figures/label_harmonization_real_examples.pdf",
+    "bytes": 754287,
+    "sha256": "f0f2797b9e00d30df8200e41ef26c825ce7c4ff17883ed0867d6a8b04100ff0f"
+  },
+  {
+    "path": "paper_artifacts/figures/segmentation_pareto_latency_external.pdf",
+    "bytes": 20915,
+    "sha256": "1f31ca753a8e29980b85b0e988f59e00f2911ed649c652037e6b8f9543dd47ad"
+  },
+  {
+    "path": "paper_artifacts/figures/segmentation_stress_readable.pdf",
+    "bytes": 23961,
+    "sha256": "a2a7f85dce7912cd6b776e04add5cbf9d58c8960ee5fa10667035080d5efa548"
+  },
+  {
+    "path": "paper_artifacts/figures/stress_severity_curves_classification.pdf",
+    "bytes": 27182,
+    "sha256": "8882920c5222bb4fa516d7617ce15afb3a22858dfa51e536d30636f708580843"
+  },
+  {
+    "path": "paper_artifacts/figures/stress_severity_curves_segmentation.pdf",
+    "bytes": 26489,
+    "sha256": "5a76b3eda2071fce29b45e271251b81863886c21312ba88515baa3bc6668f10b"
+  },
+  {
+    "path": "paper_artifacts/supplementary/figureS_detection_stress_severity_sweep.pdf",
+    "bytes": 16575,
+    "sha256": "2b91bf893e89c5e1c43cc659d01ff3c330b939819f70e54c795bdbd0ef1c2e4b"
+  },
+  {
+    "path": "paper_artifacts/supplementary/figureS_detection_stress_severity_sweep_full_corruptions.pdf",
+    "bytes": 20753,
+    "sha256": "cfd3d5cafbf0944cab94c5d9fac8a81c0f0b1a7c9098e0d43a63f2e40d10a5aa"
+  },
+  {
+    "path": "paper_artifacts/supplementary/figureS_failure_classification_full_atlas.pdf",
+    "bytes": 303000,
+    "sha256": "cda98019cccb2b9b49c0deeadf0872c24e0fa797b3f43e1aa392fbc98320abea"
+  },
+  {
+    "path": "paper_artifacts/supplementary/figureS_failure_segmentation_stress_full_atlas.pdf",
+    "bytes": 209395,
+    "sha256": "7e756d47b71c7fb3408b080783300904d6b35e95a454952c87b33e76bf4f4d71"
+  },
+  {
+    "path": "paper_artifacts/supplementary/figureS_qualitative_failure_full_atlas.pdf",
+    "bytes": 1289836,
+    "sha256": "0ac66f9ae9437f4ea2e921af6387de5ab69d1db94a8bddffcc00045b612e7e10"
+  },
+  {
+    "path": "paper_artifacts/supplementary/figureS_stress_severity_classification_fullsize.pdf",
+    "bytes": 27182,
+    "sha256": "8882920c5222bb4fa516d7617ce15afb3a22858dfa51e536d30636f708580843"
+  },
+  {
+    "path": "paper_artifacts/supplementary/figureS_stress_severity_segmentation_fullsize.pdf",
+    "bytes": 26489,
+    "sha256": "5a76b3eda2071fce29b45e271251b81863886c21312ba88515baa3bc6668f10b"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_box_generation_rules.csv",
+    "bytes": 429,
+    "sha256": "b6fc1fad8392e37d9a09478825775b514868e521f9fe2cab7b94d2ff2d73dbd4"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_calibration_all_runs.csv",
+    "bytes": 2650,
+    "sha256": "06bb0ee654e85f75a2052208ab891e97d4e5c7d93479d41bbe7a35b96e59b123"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_ci_numeric_examples.csv",
+    "bytes": 1374,
+    "sha256": "b48fe0c5f4197cc76c0fc24a7f561bcf68834c2dc7b176f9f0cdb34781584b1f"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_cross_dataset_ci_all_tasks.csv",
+    "bytes": 17210,
+    "sha256": "b0e51d1001c1fffa571dbb5f15677da0ea7d7cac849e0edeb086789376990f36"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_cross_dataset_reliability_full.csv",
+    "bytes": 3136,
+    "sha256": "7f8af345d5932c472da100ed66ad1b06aba78d947d30b88aefe2344df02ab21c"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_cross_dataset_retention_ci.csv",
+    "bytes": 17210,
+    "sha256": "b0e51d1001c1fffa571dbb5f15677da0ea7d7cac849e0edeb086789376990f36"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_cwd30_classification.csv",
+    "bytes": 1509,
+    "sha256": "0b48b0e88d69b294b609e0d367ce6c331d40d6dba0f5034ebd3140c077355229"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_cwd30_classification_all_models.csv",
+    "bytes": 2058,
+    "sha256": "37926938c6b98bd1bcce21496f40dbfa43401d114b6c25d90d4c1d9448ab13de"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_cwfid_classification.csv",
+    "bytes": 1725,
+    "sha256": "e09e23061d7c3deeb3684c9013c3e20ee4aaafcedb19b4cc5bca12a3853fe667"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_cwfid_classification_all_models.csv",
+    "bytes": 2166,
+    "sha256": "d70f4cfeb2878da9701c231375d975e94a017a86f3edba80276576e2cc377144"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_cwfid_detection.csv",
+    "bytes": 1408,
+    "sha256": "7c58717e9fa98dcaa2efbb544bda9d634539aed82e26c6c9e602f37499ed7687"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_cwfid_detection_all_models.csv",
+    "bytes": 1922,
+    "sha256": "dad99cacb41e670942ce431b18008cb20bfac88ac2064814e6d459ced876d961"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_cwfid_segmentation.csv",
+    "bytes": 1511,
+    "sha256": "62b8d646ebd1055dc91b88713014128e7680ab6bc7fd3707b63949cc4a69021b"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_cwfid_segmentation_all_models.csv",
+    "bytes": 1791,
+    "sha256": "5ba9315d31e1ac227b9d24e892d04a7a8de4c36fedde68713892c32da342b961"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_deployment_tradeoff_full.csv",
+    "bytes": 2891,
+    "sha256": "371e10a475aa93a3b7c472911bcb2ce8066c424aab098a558b5ece555b5a8395"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_detection_bootstrap_ci.csv",
+    "bytes": 9155,
+    "sha256": "2c5631e1be82b9a8cbe14fbfad718c94de6d10944e55c88614465f6a6207dcf5"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_detection_CI.csv",
+    "bytes": 9155,
+    "sha256": "2c5631e1be82b9a8cbe14fbfad718c94de6d10944e55c88614465f6a6207dcf5"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_detection_stress_severity.csv",
+    "bytes": 3977,
+    "sha256": "8371110fbcde8274a480aa8f1449e4154b9c9efe481beb7c3322ebde829260b1"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_external_dataset_statistics.csv",
+    "bytes": 413,
+    "sha256": "2ccf2b3c234bc9bf14297857a927e9fc27f152b6bb7a3f720d82012d426e6e97"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_external_validation_all_model_analysis.csv",
+    "bytes": 1289,
+    "sha256": "d5656f4f2c25020ec2da51d264682ba9eb79287cc1e5fe3f7136a9eb64f1075c"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_external_validation_diagnostics.csv",
+    "bytes": 1133,
+    "sha256": "14f9a804416a726aeb28560c8e27143c95647ede6150e6123c2a1143a1c11d2a"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_label_mapping.csv",
+    "bytes": 1458,
+    "sha256": "848d1588e90c7fb3a613f7398bfe672602ef059afcdd013200aadacdc36ded79"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_model_task_coverage_full.csv",
+    "bytes": 2023,
+    "sha256": "fe57bc158e8c0ac0ebdded492427da9aeca0c5ca65f088989f16e3ac308b52d4"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_multiseed_all_runs_long.csv",
+    "bytes": 42799,
+    "sha256": "cbe46723885149973cadeb2ee4813acecef09320a1166cf6662b77cb0021dd2b"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_multiseed_audit.csv",
+    "bytes": 10086,
+    "sha256": "920c3006b045fcd98debd22dca7e73a1db6198b77995ab07da4cf46f285a5a6d"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_multiseed_retention_summary.csv",
+    "bytes": 7251,
+    "sha256": "5dd6ad29363f47b08e9da4e36ed0985cba62445f28cc1a48fe22eae12b1e0f1f"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_multiseed_summary_wide.csv",
+    "bytes": 21354,
+    "sha256": "760e1a96aa64c34ea18081c543d7304dca9603af8e85d260c88700ed7189c6e7"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_pareto_label_legend.csv",
+    "bytes": 1506,
+    "sha256": "dbffa5c1e3ab23e784815664e2acb255c4f22e1904f0a8b6b680dc484b76fa2c"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_qualitative_failure_case_index.csv",
+    "bytes": 834,
+    "sha256": "2a5278b38936007498cd68c2917e565b2c4611234dd3f11298db32438405c1f3"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_segmentation_bootstrap_ci.csv",
+    "bytes": 22819,
+    "sha256": "c35d154260c412542644709b6412ab3786d5296033a9bc5cfae91c57e18aef6d"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_segmentation_CI.csv",
+    "bytes": 22819,
+    "sha256": "c35d154260c412542644709b6412ab3786d5296033a9bc5cfae91c57e18aef6d"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_stress_robustness_full.csv",
+    "bytes": 2913,
+    "sha256": "fd63af533aae1d68c70c0813b4c7d352ffc13538d6de1f55fe2f5930b90e94b9"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_stress_severity_summary.csv",
+    "bytes": 900,
+    "sha256": "56d6bb167689c8889bb7d6bf8270ea590801cbdccc8150eaee5642d97a136507"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_stress_severity_sweep.csv",
+    "bytes": 20855,
+    "sha256": "c2f630627cf2cd0dc63d2341aa355ff36a70b2f7ba83fe065908c42faa61e281"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_stress_severity_sweep_classification_segmentation.csv",
+    "bytes": 20855,
+    "sha256": "c2f630627cf2cd0dc63d2341aa355ff36a70b2f7ba83fe065908c42faa61e281"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_subgroup_analysis.csv",
+    "bytes": 26728,
+    "sha256": "ce844707c62fe0fa624bd28f62084dc6ba6d27527a75533139ab3c5466f76ada"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_temperature_scaling.csv",
+    "bytes": 6859,
+    "sha256": "fa55f79f487742f43822ca1ce044e66441a141e1d46a42f473a2ef26e38d8995"
+  },
+  {
+    "path": "paper_artifacts/supplementary/tableS_training_protocol.csv",
+    "bytes": 3523,
+    "sha256": "a36af3aa8d2b694eb777e3e241fdf879b35be84c614a5037976959d702aeaf75"
+  },
+  {
+    "path": "paper_artifacts/tables/table1_evidence_summary.csv",
+    "bytes": 938,
+    "sha256": "a562b800bf95bdf2d9d1407cc07bde26ed2dc3e2cc7caee18904150fd8cfd808"
+  },
+  {
+    "path": "paper_artifacts/tables/table1_evidence_summary.tex",
+    "bytes": 1618,
+    "sha256": "b9295f9e5fd2c8b07db150c02618fa4f624bc12d078d0af87f989e3ccb31b266"
+  },
+  {
+    "path": "paper_artifacts/tables/table2_transfer_summary.csv",
+    "bytes": 613,
+    "sha256": "4404b640b04806bc8389289b9c5502d191da1f412ed4b91da414bd7c93b1daa8"
+  },
+  {
+    "path": "paper_artifacts/tables/table2_transfer_summary.tex",
+    "bytes": 1349,
+    "sha256": "b3b2618fd614a7b3e9de6fe4366e6d173f7d0b7fb5be2826c8a37a0c897f1fbc"
+  },
+  {
+    "path": "paper_artifacts/tables/table3_calibration_summary.csv",
+    "bytes": 401,
+    "sha256": "7e1ac15c15812936a8a165e02465aaa080dd0590b0b1f7b6e9635c67c2ca93c1"
+  },
+  {
+    "path": "paper_artifacts/tables/table3_calibration_summary.tex",
+    "bytes": 962,
+    "sha256": "9a405b6b57db5705f2a115564368f93a0774330a730ab86b5aae65c0d3560b39"
+  },
+  {
+    "path": "paper_artifacts/tables/table4_classification_recommendations.csv",
+    "bytes": 1007,
+    "sha256": "1bbe0dd88ed2eb18a3aaacdc0ade440fa9893f5c4e36d6a3b98259c12198c884"
+  },
+  {
+    "path": "paper_artifacts/tables/table4_detection_recommendations.csv",
+    "bytes": 982,
+    "sha256": "90e766724de2af7330b5cd64e31a92668aaf83d1af01e6f6f937b1c74ad6a741"
+  },
+  {
+    "path": "paper_artifacts/tables/table4_practical_recommendations.tex",
+    "bytes": 1361,
+    "sha256": "31729d4c726e6cfffc003b53343295b5670aad704b6e72dea8fc842e867e1744"
+  },
+  {
+    "path": "paper_artifacts/tables/table4_segmentation_recommendations.csv",
+    "bytes": 1011,
+    "sha256": "a7a8eea1af4f114fb798622cdf9c4eba47249db91a72e071efc066a9275d891f"
+  },
+  {
+    "path": "paper_artifacts/tables/table5_external_validation_summary.csv",
+    "bytes": 980,
+    "sha256": "96a1a4f61e58758b1e7b32029aa174ebd22a7ce07bc9bd7919c4889e3e085154"
+  },
+  {
+    "path": "paper_artifacts/tables/table5_external_validation_summary.tex",
+    "bytes": 1448,
+    "sha256": "e9f2614f61495b91b58c4601edef826d8b8c79bec1412b005c38025b6518ce89"
+  },
+  {
+    "path": "paper_artifacts/tables/table6_multiseed_summary.csv",
+    "bytes": 1040,
+    "sha256": "d5ac545076750ac4167c850e2507b0f433fcb380fd25fc31b84e55f7edf7443c"
+  },
+  {
+    "path": "paper_artifacts/tables/table6_multiseed_summary.tex",
+    "bytes": 1347,
+    "sha256": "4ec44cd03f790dfcf722094f53f270197eae1f0115400394825cc75065b46710"
+  },
+  {
+    "path": "paper_artifacts/tables/table_temperature_scaling_summary.tex",
+    "bytes": 883,
+    "sha256": "df8cb94896bc53b57a262f129d1bd8006e37eebb5125bd14c201a7e9c9be2b0a"
+  },
+  {
+    "path": "pyproject.toml",
+    "bytes": 333,
+    "sha256": "adff939a3766be2f472d54a56975f33f064489e3f8b23bd3f6893b4fe97236d5"
+  },
+  {
+    "path": "README.md",
+    "bytes": 2592,
+    "sha256": "74868bd571d7a02cf9e69585fcd66c26c6393d04c62aca08c261a5a851b3aa23"
+  },
+  {
+    "path": "reports/curated_script_inventory.md",
+    "bytes": 1019,
+    "sha256": "1306ea4642ec029731d6f32f12164459d47082b1e0695756fa65a4cbeaee106a"
+  },
+  {
+    "path": "reports/release_candidate_review_response.md",
+    "bytes": 830,
+    "sha256": "7bc661af65700542f9cfdd37a4dc4ff678532f79313d46df39d85a037b0fd4f1"
+  },
+  {
+    "path": "reports/verification.md",
+    "bytes": 727,
+    "sha256": "e317f2937a4969803a2b3971e205287b10d7ac6d54714f9efe9cec4f185b6c1b"
+  },
+  {
+    "path": "REPRODUCIBILITY.md",
+    "bytes": 1325,
+    "sha256": "cc6bb78072a573929788be9cb5ab8703384835c4a2a99f52cca60fc0bc7ce5dc"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 340,
+    "sha256": "5c0b8317ff4f7e49a60c7914ece384cf7e6f4acefc366b6a2e9c8a51236351f5"
+  },
+  {
+    "path": "scripts/aggregate_formal_results.py",
+    "bytes": 26199,
+    "sha256": "7674e63eab802b41babdd0ad9cce9969d50b07d0efee6288e18219bee0759250"
+  },
+  {
+    "path": "scripts/bootstrap_classification_ci.py",
+    "bytes": 8413,
+    "sha256": "49b5f66db7d2e6ea2768cc85ef5d772bd0283455d3d70bf0d966c1b89754e9f2"
+  },
+  {
+    "path": "scripts/bootstrap_detection_ci.py",
+    "bytes": 5352,
+    "sha256": "9a02ae1b010948824766458d8c55ff951829d6dad4da42f4c211bcbc03192c4d"
+  },
+  {
+    "path": "scripts/bootstrap_detection_records.py",
+    "bytes": 8009,
+    "sha256": "1fe45577976031f9f86169e95df5489c34658170af93e51681227d43cee8093f"
+  },
+  {
+    "path": "scripts/bootstrap_segmentation_ci.py",
+    "bytes": 3086,
+    "sha256": "83043c78536471c316bdf0d59f44e4fb125dd972372343b669a806376de69cde"
+  },
+  {
+    "path": "scripts/bootstrap_segmentation_mask2former_records.py",
+    "bytes": 6123,
+    "sha256": "7abd114a0c09173cd19e2c9cbd9340e31c4330df214ebaa509c0b59def039d51"
+  },
+  {
+    "path": "scripts/bootstrap_segmentation_smp_records.py",
+    "bytes": 7158,
+    "sha256": "13f0d6741c620dfe6a7da3a68058078140693408956dd8e8044296c38edad6c7"
+  },
+  {
+    "path": "scripts/build_dataset_statistics.py",
+    "bytes": 6222,
+    "sha256": "e5b08eb943687fb93e6aa59ec00288b659d613846f47f2c04a2fdc4a44f1261f"
+  },
+  {
+    "path": "scripts/compute_detection_segmentation_bootstrap.py",
+    "bytes": 447,
+    "sha256": "f596a185a2756e7db0b46084c4aceda0c957ba7303ba1ff84b75397fdb9bc830"
+  },
+  {
+    "path": "scripts/eval_calibration.py",
+    "bytes": 1497,
+    "sha256": "50939505c85dea25a58042f774f5546bf44b64aa5ca4b503523e50dfd13b0e5d"
+  },
+  {
+    "path": "scripts/eval_classification.py",
+    "bytes": 6443,
+    "sha256": "9656148d692534fa4443e06fef282fe99be90cd4976d9a9f7e3dca505356f402"
+  },
+  {
+    "path": "scripts/eval_classification_stress.py",
+    "bytes": 4670,
+    "sha256": "45896a41f6806c994c1b0e4af77e2274c8a3b2f76ab1027ca35cf94adcf5f6cf"
+  },
+  {
+    "path": "scripts/eval_rtdetr_ultralytics.py",
+    "bytes": 1397,
+    "sha256": "8e1aab26facc48ac6d950be1f3535a891c6210582f759340975f3329432ea332"
+  },
+  {
+    "path": "scripts/eval_segmentation_mask2former.py",
+    "bytes": 3654,
+    "sha256": "f6d0579c862b0b74d7226364e60220324aa363578e64776bd0fb084aa2ac6f5b"
+  },
+  {
+    "path": "scripts/eval_segmentation_mask2former_stress.py",
+    "bytes": 6509,
+    "sha256": "04b144b2eebe93dbf539b4d4dee82fc1b8e88ce48764a0dfc94de118bc7b8e1e"
+  },
+  {
+    "path": "scripts/eval_segmentation_smp.py",
+    "bytes": 6272,
+    "sha256": "182542a5e1419273e48c4d76d32438d1e970aad063b9be91a047d42dc791306e"
+  },
+  {
+    "path": "scripts/eval_segmentation_stress.py",
+    "bytes": 5144,
+    "sha256": "a5b6161c3a1ce443b8ea510b1ee3581f9f707bcce788c5d2ceb91e4ba27aa771"
+  },
+  {
+    "path": "scripts/make_figures.py",
+    "bytes": 6478,
+    "sha256": "b2300b5389f2bbeebac40a645387b270dc4d285b25f2f90b848a444ec4d01730"
+  },
+  {
+    "path": "scripts/make_manifest.py",
+    "bytes": 2787,
+    "sha256": "1e1746e9ac1d37085470bff0149796098cf08e2648ee6cfb555153368daa76d4"
+  },
+  {
+    "path": "scripts/prepare_training_data.py",
+    "bytes": 7982,
+    "sha256": "d419afc73e79a0cf3283863b549e96546fa7ee44709e576623c6e3e525d8ed1d"
+  },
+  {
+    "path": "scripts/run_smoke_test.py",
+    "bytes": 14814,
+    "sha256": "9f6564c0d8d7828b62d983f08f4887cf1bf45b133f2d0f3f8fe5884c895e1ed1"
+  },
+  {
+    "path": "scripts/train_classification_timm.py",
+    "bytes": 8134,
+    "sha256": "8448f36f8e50388ef1defd6c3fb7ae8319c10bfc59e1219d00e6fea09d1b00ef"
+  },
+  {
+    "path": "scripts/train_segmentation_mask2former.py",
+    "bytes": 9526,
+    "sha256": "1ac33212294eb7fdfafcc840c39e8e69bf0327943f465ad15cfddeb594040c1e"
+  },
+  {
+    "path": "scripts/train_segmentation_smp.py",
+    "bytes": 7629,
+    "sha256": "cde081c458e9b153262aa12f5c4e9cb91d53a8f45ce6b66c67cb9816bc37484d"
+  },
+  {
+    "path": "src/agri_reliability/__init__.py",
+    "bytes": 22,
+    "sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed"
+  },
+  {
+    "path": "src/agri_reliability/data/cropandweed_adapter.py",
+    "bytes": 472,
+    "sha256": "cbe13a656a99768d8c178a387d577ac0a162a5a094c6426f534216b653d49ff7"
+  },
+  {
+    "path": "src/agri_reliability/data/dataset_adapter.py",
+    "bytes": 6888,
+    "sha256": "59a52e964a676784e185ec24fd1d9296037f0596ff1c1170dda793c028ec9fd1"
+  },
+  {
+    "path": "src/agri_reliability/data/derive_tasks.py",
+    "bytes": 2970,
+    "sha256": "d271c3b712955e0fb147c0e20eea92475b3ac272938b8c56f6136ccb102506c7"
+  },
+  {
+    "path": "src/agri_reliability/data/label_mapping.py",
+    "bytes": 4441,
+    "sha256": "d87ed9c93b0f95ff006216b6def3469286e1d78ff786ab40533ac6b20a80c473"
+  },
+  {
+    "path": "src/agri_reliability/data/manifest.py",
+    "bytes": 1125,
+    "sha256": "076e26c8263681f45e3fac5bba203a2f756430c89d17a9f1607899b46d0cabfd"
+  },
+  {
+    "path": "src/agri_reliability/data/phenobench_adapter.py",
+    "bytes": 471,
+    "sha256": "acc0a2b893b8a79d6d8e33c0ac08d6cecdbf276bf7520b207841b5208b55b3a0"
+  },
+  {
+    "path": "src/agri_reliability/metrics/calibration.py",
+    "bytes": 2188,
+    "sha256": "9f06dc45475f478a0759141b73348380f85dd919d815a6cf6b194588170a11ca"
+  },
+  {
+    "path": "src/agri_reliability/metrics/classification.py",
+    "bytes": 421,
+    "sha256": "954f99e7ce1940334b7252d3edf607e8701eb9e582e6e180f5e1157623e61353"
+  },
+  {
+    "path": "src/agri_reliability/metrics/detection.py",
+    "bytes": 2095,
+    "sha256": "a11660cbda2bcb0a03e28cfb4f0ebf7e04ff9550b5a5effb576fee25788884a1"
+  },
+  {
+    "path": "src/agri_reliability/metrics/reliability.py",
+    "bytes": 1429,
+    "sha256": "937573dd354f502dd8e3e6e1c91c0ee57500ea3f5b35f25f2a69ce2edc0870a8"
+  },
+  {
+    "path": "src/agri_reliability/metrics/risk_coverage.py",
+    "bytes": 1316,
+    "sha256": "db1ab3ea28696dab3b1aa13d86ce19d581feaa9f27d1bb8da497302b74777537"
+  },
+  {
+    "path": "src/agri_reliability/metrics/segmentation.py",
+    "bytes": 1905,
+    "sha256": "42697b347a1eec9b81231759494e825e509750c6cd0a03a95c0a5aa9fe5844a6"
+  },
+  {
+    "path": "src/agri_reliability/reporting/plots.py",
+    "bytes": 1295,
+    "sha256": "50b8f874c731b573a35525736d8c77283f25104a998a3e8046bf05b6ccbbab09"
+  },
+  {
+    "path": "src/agri_reliability/stress/image_corruptions.py",
+    "bytes": 131,
+    "sha256": "60adeac911576f8b7e4e7b7d1e5ff12f0812ba7a90bc5ec2cc54e81086e82cb4"
+  },
+  {
+    "path": "src/agri_reliability/stress/image_quality.py",
+    "bytes": 1645,
+    "sha256": "6abc326d54bb85a6ca835352a8f1bacf716e48387164cfa91bc0d609f31d50f7"
+  },
+  {
+    "path": "src/agri_reliability/utils/config.py",
+    "bytes": 183,
+    "sha256": "e708c5dd5d6ec05d7c1e3b4ab5d53460c6d77e01f9b28aaa5817c432cb5b189e"
+  },
+  {
+    "path": "VERSION",
+    "bytes": 11,
+    "sha256": "b24809a7c4c6b4095afeff2b616e6e236ad601523c714df2dcf20a37268fd691"
+  }
+]

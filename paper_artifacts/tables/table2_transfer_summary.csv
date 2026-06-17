@@ -1,0 +1,4 @@
+task,metric,strongest transfer model,transfer direction,external score,retention,CI status,caution
+classification,balanced_accuracy,Swin-T,PB -> C&W,0.5039,1.0037,prediction-record bootstrap CI + three-seed SD,retention must be read with external score
+detection,mAP50-95,YOLO11m,C&W -> PB,0.4090,0.6114,three-seed SD + YOLO11m/RT-DETR-L image-resampling CI,CI audit resamples images; official aggregate mAP remains the primary score
+segmentation,mIoU,Mask2Former-Swin-T,C&W -> PB,0.5794,0.6555,three-seed SD + per-image IoU CI,per-image CI complements global mIoU and does not replace class-level inspection

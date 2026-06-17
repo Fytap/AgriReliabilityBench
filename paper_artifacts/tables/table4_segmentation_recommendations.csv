@@ -1,0 +1,7 @@
+scenario,model,metric,value,context,caution
+highest in-domain score on CropAndWeed,Mask2Former-Swin-T,miou,0.8839,train/test CropAndWeed,Use only when deployment data match the training domain.
+highest in-domain score on PhenoBench,U-Net,miou,0.8806,train/test PhenoBench,Use only when deployment data match the training domain.
+best transfer CropAndWeed -> PhenoBench,Mask2Former-Swin-T,retention,0.6555,external score 0.5794,Use when dataset shift is expected; verify absolute external score as well as retention.
+best transfer PhenoBench -> CropAndWeed,Mask2Former-Swin-T,retention,0.5025,external score 0.4395,Use when dataset shift is expected; verify absolute external score as well as retention.
+highest mean stress retention,UPerNet-Swin-T,mean stress retention,0.9912,PhenoBench,Use when blur/compression/illumination changes are likely.
+fastest batch-1 inference,DeepLabV3+,latency_ms,4.2668,"CropAndWeed, 234.3651 FPS",Use only after checking reliability trade-offs for the deployment domain.

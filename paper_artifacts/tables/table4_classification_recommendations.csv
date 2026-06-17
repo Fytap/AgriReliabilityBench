@@ -1,0 +1,7 @@
+scenario,model,metric,value,context,caution
+highest in-domain score on CropAndWeed,ConvNeXtV2-T,balanced_accuracy,0.8724,train/test CropAndWeed,Use only when deployment data match the training domain.
+highest in-domain score on PhenoBench,DINOv2-S,balanced_accuracy,0.7235,train/test PhenoBench,Use only when deployment data match the training domain.
+best transfer CropAndWeed -> PhenoBench,DINOv2-S,retention,0.8876,external score 0.7480,Use when dataset shift is expected; verify absolute external score as well as retention.
+best transfer PhenoBench -> CropAndWeed,Swin-T,retention,1.0037,external score 0.5039,Use when dataset shift is expected; verify absolute external score as well as retention.
+highest mean stress retention,ConvNeXtV2-T,mean stress retention,1.008,PhenoBench,Use when blur/compression/illumination changes are likely.
+fastest batch-1 inference,ResNet50,latency_ms,3.6623,"CropAndWeed, 273.0507 FPS",Use only after checking reliability trade-offs for the deployment domain.

@@ -1,0 +1,45 @@
+name: phenobench
+task: classification_detection_segmentation
+root: data/raw/phenobench/PhenoBench
+modality: rgb
+splits:
+  train: train
+  val: val
+  test: test
+default_split: unknown
+image_dirs:
+  - train/images
+  - val/images
+  - test/images
+mask_dirs:
+  - train/semantics
+  - val/semantics
+boxes_dirs:
+  - boxes
+  - bboxes
+  - annotations/boxes
+  - annotations/bboxes
+unified_label_space:
+  - background
+  - crop
+  - weed
+mask_label_values:
+  background: [0]
+  crop: [1, 3]
+  weed: [2, 4]
+label_keywords:
+  crop:
+    - crop
+    - maize
+    - corn
+    - sugarbeet
+    - plant
+  weed:
+    - weed
+    - weedling
+    - unwanted
+  background:
+    - background
+    - soil
+    - void
+notes: "PhenoBench labels are mapped to crop/weed/background. Update mask_label_values if the local release uses different semantic IDs."

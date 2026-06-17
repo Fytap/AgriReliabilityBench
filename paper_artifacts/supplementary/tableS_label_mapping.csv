@@ -1,0 +1,15 @@
+dataset,original label,mapped label,used for classification,used for detection,used for segmentation,notes
+CropAndWeed,mask value 2,background,True,True,True,Configured CropOrWeed2 background/unmapped value.
+CropAndWeed,mask value 0,crop,True,True,True,Configured CropOrWeed2 crop value.
+CropAndWeed,mask value 1,weed,True,True,True,Configured CropOrWeed2 weed value.
+CropAndWeed,label keyword: maize/corn/beet/sugarbeet/crop,crop,True,True,False,Fallback name mapping for fine labels.
+CropAndWeed,label keyword: weed/weedling,weed,True,True,False,Fallback name mapping for fine labels.
+PhenoBench,mask value 0,background,True,True,True,Configured semantic background value.
+PhenoBench,"mask values 1,3",crop,True,True,True,Configured crop/plant semantic values.
+PhenoBench,"mask values 2,4",weed,True,True,True,Configured weed/weedling semantic values.
+PhenoBench,label keyword: crop/maize/corn/sugarbeet/plant,crop,True,True,False,Fallback name mapping for text labels.
+PhenoBench,label keyword: weed/weedling/unwanted,weed,True,True,False,Fallback name mapping for text labels.
+CWFID,annotation green/crop labels,crop,False,False,False,Mapped to the shared crop class.
+CWFID,annotation red/weed labels,weed,False,False,False,Mapped to the shared weed class.
+CWD30,10 crop categories,crop,True,False,False,Collapsed from fine-grained category names.
+CWD30,20 weed categories,weed,True,False,False,Collapsed from fine-grained category names.

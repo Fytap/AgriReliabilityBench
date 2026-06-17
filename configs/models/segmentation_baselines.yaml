@@ -1,0 +1,14 @@
+segmentation_models:
+  - name: unet
+    family: encoder_decoder
+  - name: deeplabv3plus
+    family: atrous_cnn
+  - name: segformer_b0
+    family: transformer
+  - name: mask2former
+    family: transformer
+    optional: true
+  - name: sam_prompt_reference
+    family: foundation_reference
+    optional: true
+    note: "Reference only; not main novelty."

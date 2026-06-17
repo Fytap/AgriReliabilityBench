@@ -1,0 +1,4 @@
+# Optional template for fair class mapping when species/classes are compatible.
+# Use null for classes that should be excluded from cross-dataset scoring.
+mapping: {}
+notes: "Do not force invalid biological class mappings. If mapping is weak, report crop-vs-weed or genus-level only."

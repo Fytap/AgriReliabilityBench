@@ -1,0 +1,29 @@
+classification_models:
+  - name: resnet50
+    family: cnn
+    source: torchvision
+    pretrained: true
+  - name: efficientnet_b0
+    family: cnn
+    source: torchvision
+    pretrained: true
+  - name: convnext_tiny
+    family: convnext
+    source: torchvision
+    pretrained: true
+  - name: vit_b_16
+    family: transformer
+    source: torchvision
+    pretrained: true
+  - name: swin_t
+    family: transformer
+    source: torchvision
+    pretrained: true
+  - name: dinov2_linear
+    family: foundation_feature
+    source: transformers_or_torchhub
+    pretrained: true
+  - name: clip_linear
+    family: vision_language_feature
+    source: transformers
+    pretrained: true

@@ -1,0 +1,8 @@
+rule,value
+min area threshold,4 pixels
+component extraction,connected components extracted separately for crop and weed masks
+ignored regions,unknown/void values mapped to background unless configured
+merge rule,no post-hoc merge
+split rule,no split beyond connected components
+class assignment,class inherited from source semantic mask
+fallback,global extent per class only if connected-component tooling is unavailable

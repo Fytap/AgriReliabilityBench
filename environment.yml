@@ -1,0 +1,24 @@
+name: agri-rel
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - matplotlib
+  - pyyaml
+  - tqdm
+  - pillow
+  - opencv
+  - pip:
+      - rich
+      - jsonlines
+      - timm
+      - transformers
+      - accelerate
+      - ultralytics

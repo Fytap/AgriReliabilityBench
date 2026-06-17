@@ -1,0 +1,29 @@
+experiments:
+  - name: cropandweed_to_cropandweed
+    train_dataset: cropandweed
+    test_dataset: cropandweed
+    domain: in_domain
+  - name: cropandweed_to_phenobench
+    train_dataset: cropandweed
+    test_dataset: phenobench
+    domain: external
+  - name: phenobench_to_phenobench
+    train_dataset: phenobench
+    test_dataset: phenobench
+    domain: in_domain
+  - name: phenobench_to_cropandweed
+    train_dataset: phenobench
+    test_dataset: cropandweed
+    domain: external
+metrics:
+  - accuracy
+  - macro_f1
+  - balanced_accuracy
+  - miou
+  - class_iou
+  - ece
+  - brier
+  - absolute_drop
+  - retention
+  - high_confidence_error_rate
+  - risk_coverage_auc

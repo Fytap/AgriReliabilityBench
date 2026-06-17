@@ -1,0 +1,27 @@
+{
+  "title": "AgriReliabilityBench: Reproducibility package for agricultural visual model reliability benchmarking",
+  "description": "Code, configurations, derived result tables, figures, supplementary materials, and reproducibility scripts for an agricultural visual model reliability benchmark.",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "AgriReliabilityBench contributors"
+    }
+  ],
+  "version": "1.0.0",
+  "publication_date": "2026-06-17",
+  "keywords": [
+    "agricultural vision",
+    "crop-weed perception",
+    "dataset shift",
+    "model reliability",
+    "calibration"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Fytap/AgriReliabilityBench",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

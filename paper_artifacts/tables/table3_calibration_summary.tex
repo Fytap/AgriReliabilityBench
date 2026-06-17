@@ -1,0 +1,18 @@
+\begin{table}[!htbp]
+\centering
+\small
+\setlength{\tabcolsep}{0pt}
+\renewcommand{\arraystretch}{1.13}
+\caption{Classification calibration and selective-prediction summary for selected cases. Full calibration records are provided in Supplementary Table S-calibration.}
+\label{tab:calibration}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}P{0.265\textwidth}P{0.160\textwidth}C{0.125\textwidth}C{0.110\textwidth}C{0.090\textwidth}C{0.090\textwidth}C{0.100\textwidth}@{}}
+\toprule
+Case & Model & Train/test & Bal. acc. & ECE & Brier & HC wrong \\
+\midrule
+Best in-domain CropAndWeed & ConvNeXtV2-T & C\&W/C\&W & 0.8724 & 0.0988 & 0.1117 & 48 \\
+Best CropAndWeed to PhenoBench & DINOv2-S & C\&W/PB & 0.7480 & 0.0374 & 0.1981 & 1 \\
+Worst high-confidence transfer & Swin-T & C\&W/PB & 0.4603 & 0.6487 & 0.6351 & 333 \\
+Best PhenoBench to CropAndWeed & DINOv2-S & PB/C\&W & 0.5199 & 0.0261 & 0.1812 & 0 \\
+\bottomrule
+\end{tabular*}
+\end{table}

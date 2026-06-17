@@ -1,0 +1,7 @@
+name: weedmap
+task: multispectral_crop_weed_segmentation
+root: data/raw/weedmap
+channels: [rgb, nir]
+classes: [background, crop, weed]
+optional: true
+notes: "Optional crop-weed multispectral segmentation for sensor/modality stress."

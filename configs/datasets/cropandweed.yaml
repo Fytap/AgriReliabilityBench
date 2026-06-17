@@ -1,0 +1,61 @@
+name: cropandweed
+task: classification_detection_segmentation
+root: data/raw/cropandweed
+modality: rgb
+splits:
+  train: train
+  val: val
+  test: test
+default_split: unknown
+image_dirs:
+  - images
+  - rgb
+  - train/images
+  - val/images
+  - test/images
+mask_dirs:
+  - labelIds/CropOrWeed2
+  - labelIds/CropsOrWeed9
+  - labelIds/CropAndWeed
+  - masks
+  - labels
+  - semantics
+  - annotations/masks
+  - train/masks
+  - val/masks
+  - test/masks
+boxes_dirs:
+  - bboxes/CropOrWeed2
+  - bboxes/CropOrWeed2Eval
+  - bboxes/CropsOrWeed9
+  - bboxes/CropAndWeed
+  - boxes
+  - bboxes
+  - annotations/boxes
+  - annotations/bboxes
+classes: auto
+unified_label_space:
+  - background
+  - crop
+  - weed
+mask_label_values:
+  # Preferred official mapped masks from CropAndWeed `CropOrWeed2`:
+  # crop=0, weed=1, background/unmapped=2.
+  background: [2]
+  crop: [0]
+  weed: [1]
+label_keywords:
+  crop:
+    - crop
+    - maize
+    - corn
+    - beet
+    - sugarbeet
+  weed:
+    - weed
+    - weedling
+  background:
+    - background
+    - soil
+    - void
+notes: "Rich annotations: bbox, semantic masks, stem positions and metadata where available. Fine labels are mapped to crop/weed/background for cross-dataset reliability."

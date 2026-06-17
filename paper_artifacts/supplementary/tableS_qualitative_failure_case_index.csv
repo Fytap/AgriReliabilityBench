@@ -1,0 +1,5 @@
+case_group,main_evidence,agricultural_implication,use_in_manuscript
+High-confidence classification error,HC wrong counts and calibration table,Confidence gates can accept wrong weed decisions.,compact audit map; not standalone numerical evidence
+Cross-dataset segmentation degradation,"Mask2Former C&W to PB weed IoU 0.060 [0.050, 0.071]",Dense spray masks can miss weed pixels after transfer.,compact audit map; not standalone numerical evidence
+Detection transfer miss/false positive,CWFID detection median mAP50-95 stays low,Spatial actuation requires external localization checks.,compact audit map; not standalone numerical evidence
+Image-condition sensitivity,Severity audit: blur/contrast create worst retention,Image quality control should be part of model selection.,compact audit map; not standalone numerical evidence

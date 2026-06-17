@@ -1,0 +1,11 @@
+model,train_dataset,external_dataset,task,metric,score,accuracy,balanced_accuracy,macro_f1,ece,brier,miou,precision,recall,mAP50,mAP50-95,n_samples,class_imbalance_note
+DeepLabV3+,cropandweed,cwfid,segmentation,miou,0.4699,,,,,,0.4699,,,,,60,crop and weed annotations available; weed-presence classification is highly imbalanced
+Mask2Former-Swin-T,cropandweed,cwfid,segmentation,miou,0.4722,,,,,,0.4722,,,,,60,crop and weed annotations available; weed-presence classification is highly imbalanced
+SegFormer-B0,cropandweed,cwfid,segmentation,miou,0.211,,,,,,0.211,,,,,60,crop and weed annotations available; weed-presence classification is highly imbalanced
+U-Net,cropandweed,cwfid,segmentation,miou,0.3532,,,,,,0.3532,,,,,60,crop and weed annotations available; weed-presence classification is highly imbalanced
+UPerNet-Swin-T,cropandweed,cwfid,segmentation,miou,0.3379,,,,,,0.3379,,,,,60,crop and weed annotations available; weed-presence classification is highly imbalanced
+DeepLabV3+,phenobench,cwfid,segmentation,miou,0.3094,,,,,,0.3094,,,,,60,crop and weed annotations available; weed-presence classification is highly imbalanced
+Mask2Former-Swin-T,phenobench,cwfid,segmentation,miou,0.4265,,,,,,0.4265,,,,,60,crop and weed annotations available; weed-presence classification is highly imbalanced
+SegFormer-B0,phenobench,cwfid,segmentation,miou,0.2961,,,,,,0.2961,,,,,60,crop and weed annotations available; weed-presence classification is highly imbalanced
+U-Net,phenobench,cwfid,segmentation,miou,0.3775,,,,,,0.3775,,,,,60,crop and weed annotations available; weed-presence classification is highly imbalanced
+UPerNet-Swin-T,phenobench,cwfid,segmentation,miou,0.2817,,,,,,0.2817,,,,,60,crop and weed annotations available; weed-presence classification is highly imbalanced

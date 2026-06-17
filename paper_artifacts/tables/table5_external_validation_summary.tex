@@ -1,0 +1,22 @@
+\begin{table}[!htbp]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{0pt}
+\renewcommand{\arraystretch}{1.14}
+\caption{External validation diagnostic summary. Weakest, median, and strongest observed point estimates are reported; full all-model records are provided in Supplementary Tables S-CWFID and S-CWD30.}
+\label{tab:external}
+\begin{tabular*}{\textwidth}{@{}C{0.080\textwidth}@{\hspace{0.012\textwidth}}C{0.055\textwidth}@{\hspace{0.012\textwidth}}C{0.055\textwidth}@{\hspace{0.014\textwidth}}C{0.105\textwidth}@{\hspace{0.018\textwidth}}P{0.250\textwidth}@{\hspace{0.034\textwidth}}C{0.080\textwidth}@{\hspace{0.034\textwidth}}P{0.230\textwidth}@{}}
+\toprule
+Dataset & Task & Train & Metric & Weakest & Median & Strongest \\
+\midrule
+CWFID & CLS & C\&W & bal. acc. & Swin-T (0.415) & 0.483 & DINOv2-S lin. (0.500) \\
+CWFID & CLS & PB & bal. acc. & ResNet50 (0.085) & 0.500 & Swin-T (0.509) \\
+CWFID & DET & C\&W & mAP50--95 & YOLO11m (0.056) & 0.096 & RT-DETR-L (0.119) \\
+CWFID & DET & PB & mAP50--95 & YOLOv5l6u (0.000) & 0.001 & RT-DETR-L (0.059) \\
+CWFID & SEG & C\&W & mIoU & SegFormer-B0 (0.211) & 0.353 & Mask2Former-T (0.472) \\
+CWFID & SEG & PB & mIoU & UPerNet-T (0.282) & 0.309 & Mask2Former-T (0.427) \\
+CWD30 & CLS & C\&W & bal. acc. & ResNet50 (0.307) & 0.328 & DINOv2-S lin. (0.358) \\
+CWD30 & CLS & PB & bal. acc. & ResNet50 (0.344) & 0.498 & EffNetV2-S (0.583) \\
+\bottomrule
+\end{tabular*}
+\end{table}

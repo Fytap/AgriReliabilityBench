@@ -1,0 +1,21 @@
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.4
+scipy>=1.11
+matplotlib>=3.8
+pyyaml>=6.0
+tqdm>=4.66
+pillow>=10.0
+opencv-python>=4.9
+rich>=13.7
+jsonlines>=4.0
+torch>=2.2
+torchvision>=0.17
+timm>=1.0
+transformers>=4.45
+accelerate>=0.33
+# Optional for segmentation/detection experiments:
+# ultralytics>=8.3
+# mmsegmentation
+# mmdet
+# segment-anything

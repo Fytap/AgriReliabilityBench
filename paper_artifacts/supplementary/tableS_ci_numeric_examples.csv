@@ -1,0 +1,10 @@
+task,model,train_dataset,test_dataset,metric,estimate,ci_low,ci_high,n_images,note
+classification,Swin-T,PhenoBench,CropAndWeed,balanced accuracy retention,1.004,0.996,1.012,772/1223,Prediction-record bootstrap for retention; external balanced accuracy is 0.5039.
+detection,YOLO11m,cropandweed,phenobench,mAP50-95,0.454,0.443,0.466,772,Image-resampling audit from saved predictions and labels.
+detection,YOLO11m,cropandweed,phenobench,recall,0.783,0.771,0.793,772,Image-resampling audit from saved predictions and labels.
+detection,RT-DETR-L,phenobench,cropandweed,mAP50-95,0.285,0.270,0.299,1223,Image-resampling audit from saved predictions and labels.
+detection,RT-DETR-L,phenobench,cropandweed,recall,0.628,0.610,0.645,1223,Image-resampling audit from saved predictions and labels.
+segmentation,Mask2Former-Swin-T,cropandweed,phenobench,mIoU,0.609,0.597,0.620,772,Per-image IoU bootstrap from matched predictions and masks.
+segmentation,Mask2Former-Swin-T,cropandweed,phenobench,weed_IoU,0.060,0.050,0.071,772,Per-image IoU bootstrap from matched predictions and masks.
+segmentation,Mask2Former-Swin-T,phenobench,cropandweed,mIoU,0.526,0.515,0.537,1223,Per-image IoU bootstrap from matched predictions and masks.
+segmentation,Mask2Former-Swin-T,phenobench,cropandweed,weed_IoU,0.184,0.172,0.197,1223,Per-image IoU bootstrap from matched predictions and masks.

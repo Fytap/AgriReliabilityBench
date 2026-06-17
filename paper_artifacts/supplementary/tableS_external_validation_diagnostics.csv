@@ -1,0 +1,9 @@
+dataset,task,train,metric,worst,median,strongest,interpretation
+CWFID,classification,C&W,balanced_accuracy,Swin-T (0.4153),0.4831,DINOv2-S/14 linear (0.5000),domain shift / annotation mismatch / imbalance
+CWFID,classification,PB,balanced_accuracy,ResNet50 (0.0847),0.5000,Swin-T (0.5085),domain shift / annotation mismatch / imbalance
+CWFID,detection,C&W,mAP50-95,YOLO11m (0.0563),0.0959,RT-DETR-L (0.1189),domain shift / annotation mismatch / imbalance
+CWFID,detection,PB,mAP50-95,YOLOv5l6u (0.0003),0.0011,RT-DETR-L (0.0585),domain shift / annotation mismatch / imbalance
+CWFID,segmentation,C&W,miou,SegFormer-B0 (0.2110),0.3532,Mask2Former-Swin-T (0.4722),domain shift / annotation mismatch / imbalance
+CWFID,segmentation,PB,miou,UPerNet-Swin-T (0.2817),0.3094,Mask2Former-Swin-T (0.4265),domain shift / annotation mismatch / imbalance
+CWD30,classification,C&W,balanced_accuracy,ResNet50 (0.3068),0.3282,DINOv2-S/14 linear (0.3575),class collapse and crop/weed distribution shift
+CWD30,classification,PB,balanced_accuracy,ResNet50 (0.3436),0.4977,EfficientNetV2-S (0.5829),class collapse and crop/weed distribution shift

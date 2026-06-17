@@ -1,0 +1,21 @@
+task,model,dataset,corruption,corruption_family,severity_value,primary_metric,score,clean_score,absolute_drop,retention,audit_scope,status
+detection,YOLO11m,cropandweed,clean,clean,0.0,mAP50-95,0.669,0.669,0.0,1.0,CropAndWeed in-domain detection multi-severity sweep,available
+detection,RT-DETR-L,cropandweed,clean,clean,0.0,mAP50-95,0.5914412320364282,0.5914412320364282,0.0,1.0,CropAndWeed in-domain detection multi-severity sweep,available
+detection,YOLO11m,cropandweed,gaussian_blur_3,blur,3.0,mAP50-95,0.541,0.669,0.128,0.8086696562032885,CropAndWeed in-domain detection multi-severity sweep,available
+detection,RT-DETR-L,cropandweed,gaussian_blur_3,blur,3.0,mAP50-95,0.4654318956693292,0.5914412320364282,0.126009336367099,0.786945296435914,CropAndWeed in-domain detection multi-severity sweep,available
+detection,YOLO11m,cropandweed,gaussian_blur_5,blur,5.0,mAP50-95,0.42,0.669,0.24900000000000005,0.6278026905829596,CropAndWeed in-domain detection multi-severity sweep,available
+detection,RT-DETR-L,cropandweed,gaussian_blur_5,blur,5.0,mAP50-95,0.393546729980391,0.5914412320364282,0.1978945020560372,0.6654029321313052,CropAndWeed in-domain detection multi-severity sweep,available
+detection,YOLO11m,cropandweed,gaussian_blur_7,blur,7.0,mAP50-95,0.298,0.669,0.37100000000000005,0.44544095665171896,CropAndWeed in-domain detection multi-severity sweep,available
+detection,RT-DETR-L,cropandweed,gaussian_blur_7,blur,7.0,mAP50-95,0.3237522048637957,0.5914412320364282,0.2676890271726325,0.5473953916757955,CropAndWeed in-domain detection multi-severity sweep,available
+detection,YOLO11m,cropandweed,jpeg_quality_70,jpeg,70.0,mAP50-95,0.604,0.669,0.06500000000000006,0.9028400597907323,CropAndWeed in-domain detection multi-severity sweep,available
+detection,RT-DETR-L,cropandweed,jpeg_quality_70,jpeg,70.0,mAP50-95,0.5356799288593118,0.5914412320364282,0.05576130317711636,0.9057196215672669,CropAndWeed in-domain detection multi-severity sweep,available
+detection,YOLO11m,cropandweed,jpeg_quality_50,jpeg,50.0,mAP50-95,0.548,0.669,0.121,0.8191330343796712,CropAndWeed in-domain detection multi-severity sweep,available
+detection,RT-DETR-L,cropandweed,jpeg_quality_50,jpeg,50.0,mAP50-95,0.47726052561582266,0.5914412320364282,0.11418070642060552,0.8069449672498098,CropAndWeed in-domain detection multi-severity sweep,available
+detection,YOLO11m,cropandweed,jpeg_quality_30,jpeg,30.0,mAP50-95,0.446,0.669,0.22300000000000003,0.6666666666666666,CropAndWeed in-domain detection multi-severity sweep,available
+detection,RT-DETR-L,cropandweed,jpeg_quality_30,jpeg,30.0,mAP50-95,0.4014478542052958,0.5914412320364282,0.1899933778311324,0.6787620349414017,CropAndWeed in-domain detection multi-severity sweep,available
+detection,YOLO11m,cropandweed,low_resolution_0.75,low_resolution,0.75,mAP50-95,0.62,0.669,0.049000000000000044,0.9267563527653213,CropAndWeed in-domain detection multi-severity sweep,available
+detection,RT-DETR-L,cropandweed,low_resolution_0.75,low_resolution,0.75,mAP50-95,0.5576341694166423,0.5914412320364282,0.03380706261978583,0.942839523542546,CropAndWeed in-domain detection multi-severity sweep,available
+detection,YOLO11m,cropandweed,low_resolution_0.5,low_resolution,0.5,mAP50-95,0.609,0.669,0.06000000000000005,0.9103139013452914,CropAndWeed in-domain detection multi-severity sweep,available
+detection,RT-DETR-L,cropandweed,low_resolution_0.5,low_resolution,0.5,mAP50-95,0.5281743914027084,0.5914412320364282,0.06326684063371979,0.8930293709556201,CropAndWeed in-domain detection multi-severity sweep,available
+detection,YOLO11m,cropandweed,low_resolution_0.25,low_resolution,0.25,mAP50-95,0.57,0.669,0.09900000000000009,0.8520179372197308,CropAndWeed in-domain detection multi-severity sweep,available
+detection,RT-DETR-L,cropandweed,low_resolution_0.25,low_resolution,0.25,mAP50-95,0.48112590358416324,0.5914412320364282,0.11031532845226494,0.8134804905765002,CropAndWeed in-domain detection multi-severity sweep,available

@@ -1,0 +1,15 @@
+\begin{table}[!htbp]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{0pt}
+\renewcommand{\arraystretch}{1.12}
+\caption{Compact temperature-scaling audit for representative classification runs. Temperatures were fitted on validation predictions only and then applied to in-domain and cross-dataset test predictions. Negative deltas indicate lower error after scaling; full rows are provided in Supplementary Table S-temperature-scaling.}
+\label{tab:temperature_scaling}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}C{0.140\textwidth}C{0.180\textwidth}C{0.180\textwidth}C{0.160\textwidth}P{0.300\textwidth}@{}}
+\toprule
+Rows & Mean ECE change & Mean Brier change & Mean AURC change & High-confidence wrong outcome \\
+\midrule
+12 & -0.035 (8/12 improved) & -0.061 (8/12 improved) & 0.000 & not eliminated; mean change +1.42 \\
+\bottomrule
+\end{tabular*}
+\end{table}
