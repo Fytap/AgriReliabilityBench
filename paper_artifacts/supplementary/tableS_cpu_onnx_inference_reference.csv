@@ -1,0 +1,4 @@
+task,model,dataset,backend,image_size,batch_size,warmup_runs,timed_runs,n_unique_images,preprocessing_included,postprocessing_included,mean_ms,std_ms,median_ms,p95_ms,fps_mean,model_file
+detection,YOLO11m,CropAndWeed,PyTorch CPU,1280,1,50,200,16,True,True,318.225,7.501,317.218,332.405,3.142,/mnt/lz/AgriReliabilityBench_IPA_revision/formal_checkpoints/revision_detection_full/yolo11m_cropandweed_seed0_best.pt
+detection,YOLO11m,CropAndWeed,ONNX Runtime CPU,1280,1,50,200,16,True,True,234.302,7.496,232.626,247.935,4.268,/mnt/lz/AgriReliabilityBench_IPA_revision/formal_checkpoints/revision_detection_full/yolo11m_cropandweed_seed0_best.onnx
+detection,RT-DETR-L,CropAndWeed,PyTorch CPU,640,1,50,200,16,True,True,235.925,9.147,234.118,251.59,4.239,/mnt/lz/AgriReliabilityBench_IPA_revision/formal_checkpoints/revision_detection_full/rtdetr_l_cropandweed_seed0_best.pt

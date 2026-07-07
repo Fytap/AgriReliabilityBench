@@ -1,0 +1,11 @@
+source_train,target_test,model,audit_scope,corruption_family,severity,corruption,precision,recall,mAP50,mAP50_95
+phenobench,CropAndWeed-sample,RT-DETR-L,representative_cross_dataset_detection_severity,clean,clean,clean,0.23695399928457395,0.18096081129236136,0.10023571947052431,0.05041261383716365
+phenobench,CropAndWeed-sample,RT-DETR-L,representative_cross_dataset_detection_severity,blur,3,gaussian_blur_3,0.2463877105994271,0.1984929630544071,0.10713302800980504,0.05193099950762089
+phenobench,CropAndWeed-sample,RT-DETR-L,representative_cross_dataset_detection_severity,blur,5,gaussian_blur_5,0.2490617685191276,0.17526783046865774,0.09444642276486989,0.047671701058519596
+phenobench,CropAndWeed-sample,RT-DETR-L,representative_cross_dataset_detection_severity,blur,7,gaussian_blur_7,0.23097411341991128,0.12315191707500991,0.0628862477923547,0.033099220535060384
+phenobench,CropAndWeed-sample,RT-DETR-L,representative_cross_dataset_detection_severity,jpeg,70,jpeg_quality_70,0.23925119107285456,0.1797115429972323,0.09415296526300058,0.048011389197956215
+phenobench,CropAndWeed-sample,RT-DETR-L,representative_cross_dataset_detection_severity,jpeg,50,jpeg_quality_50,0.22244269134621636,0.16800990200358473,0.0846591375317205,0.04234730235579028
+phenobench,CropAndWeed-sample,RT-DETR-L,representative_cross_dataset_detection_severity,jpeg,30,jpeg_quality_30,0.2042495708740712,0.15323811996275816,0.07238705162279396,0.03740732769615173
+phenobench,CropAndWeed-sample,RT-DETR-L,representative_cross_dataset_detection_severity,low_resolution,0.75,low_resolution_0.75,0.2394012856875258,0.18520121869010553,0.10428809727493267,0.052110866892964
+phenobench,CropAndWeed-sample,RT-DETR-L,representative_cross_dataset_detection_severity,low_resolution,0.5,low_resolution_0.5,0.23238458632523035,0.20085177499263157,0.1035822548052477,0.05138587750000386
+phenobench,CropAndWeed-sample,RT-DETR-L,representative_cross_dataset_detection_severity,low_resolution,0.25,low_resolution_0.25,0.2344499370095442,0.20752742203283853,0.10595473096759957,0.05095577964087396

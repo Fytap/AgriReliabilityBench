@@ -1,0 +1,11 @@
+source_train,target_test,model,audit_scope,corruption_family,severity,corruption,precision,recall,mAP50,mAP50_95
+phenobench,CropAndWeed-sample,RT-DETR-L,representative_cross_dataset_detection_severity,clean,clean,clean,0.24199728469096254,0.21197247275193193,0.11925744458157682,0.05764049476129207
+phenobench,CropAndWeed-sample,RT-DETR-L,representative_cross_dataset_detection_severity,blur,3,gaussian_blur_3,0.33420270351391057,0.19652147411052984,0.12467551381166392,0.0646297072926777
+phenobench,CropAndWeed-sample,RT-DETR-L,representative_cross_dataset_detection_severity,blur,5,gaussian_blur_5,0.3265798944433733,0.1438701172355259,0.08410133357654327,0.0442988093784986
+phenobench,CropAndWeed-sample,RT-DETR-L,representative_cross_dataset_detection_severity,blur,7,gaussian_blur_7,0.30818699200684097,0.10638940808822422,0.06151900335039011,0.030671927731491994
+phenobench,CropAndWeed-sample,RT-DETR-L,representative_cross_dataset_detection_severity,jpeg,70,jpeg_quality_70,0.26420317330803256,0.19454326044522297,0.1157305455269946,0.0557172146268133
+phenobench,CropAndWeed-sample,RT-DETR-L,representative_cross_dataset_detection_severity,jpeg,50,jpeg_quality_50,0.27033079729029635,0.18417121344508489,0.10922548537797676,0.0525811330491466
+phenobench,CropAndWeed-sample,RT-DETR-L,representative_cross_dataset_detection_severity,jpeg,30,jpeg_quality_30,0.2511758264375994,0.1544476054282688,0.08439157983823836,0.04360383927513907
+phenobench,CropAndWeed-sample,RT-DETR-L,representative_cross_dataset_detection_severity,low_resolution,0.75,low_resolution_0.75,0.28090119878615316,0.21698357806050025,0.1295547589291336,0.06132435679838529
+phenobench,CropAndWeed-sample,RT-DETR-L,representative_cross_dataset_detection_severity,low_resolution,0.5,low_resolution_0.5,0.284667832734668,0.22340480162831022,0.1322325796243018,0.06398403107945226
+phenobench,CropAndWeed-sample,RT-DETR-L,representative_cross_dataset_detection_severity,low_resolution,0.25,low_resolution_0.25,0.3091322677605072,0.2164679226330401,0.13092874621027212,0.06674300299496322

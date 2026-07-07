@@ -1,0 +1,11 @@
+source_train,target_test,model,audit_scope,corruption_family,severity,corruption,precision,recall,mAP50,mAP50_95
+cropandweed,PhenoBench-val,RT-DETR-L,representative_cross_dataset_detection_severity,clean,clean,clean,0.2868440766838871,0.33080871555653213,0.18809281176760928,0.13033682592255097
+cropandweed,PhenoBench-val,RT-DETR-L,representative_cross_dataset_detection_severity,blur,3,gaussian_blur_3,0.13919157529350593,0.15982446125766142,0.07741093599193227,0.05284774812241727
+cropandweed,PhenoBench-val,RT-DETR-L,representative_cross_dataset_detection_severity,blur,5,gaussian_blur_5,0.08552453975721445,0.11338603522775278,0.039487614000731995,0.02507710069135578
+cropandweed,PhenoBench-val,RT-DETR-L,representative_cross_dataset_detection_severity,blur,7,gaussian_blur_7,0.061487271451565476,0.0929739501446944,0.026358875090683923,0.016101310126520614
+cropandweed,PhenoBench-val,RT-DETR-L,representative_cross_dataset_detection_severity,jpeg,70,jpeg_quality_70,0.27732081506396966,0.2973052139441769,0.17362295268535177,0.12271477061710337
+cropandweed,PhenoBench-val,RT-DETR-L,representative_cross_dataset_detection_severity,jpeg,50,jpeg_quality_50,0.26874793308787326,0.2767135278105943,0.16124529904926596,0.11410256750168926
+cropandweed,PhenoBench-val,RT-DETR-L,representative_cross_dataset_detection_severity,jpeg,30,jpeg_quality_30,0.24696595663276916,0.2506950925533269,0.13657501364302205,0.09320155287389038
+cropandweed,PhenoBench-val,RT-DETR-L,representative_cross_dataset_detection_severity,low_resolution,0.75,low_resolution_0.75,0.2711630833458608,0.3253898721224303,0.19676883508753934,0.13514641907241687
+cropandweed,PhenoBench-val,RT-DETR-L,representative_cross_dataset_detection_severity,low_resolution,0.5,low_resolution_0.5,0.2537549223025349,0.28979034922066116,0.17469685578685995,0.1244334480980314
+cropandweed,PhenoBench-val,RT-DETR-L,representative_cross_dataset_detection_severity,low_resolution,0.25,low_resolution_0.25,0.2032483666355423,0.20149474291913735,0.11653528574176714,0.08391313967087946

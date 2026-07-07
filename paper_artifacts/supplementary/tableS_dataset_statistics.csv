@@ -1,0 +1,10 @@
+dataset,split,samples,images,masks,annotation_files,objects,crop_objects,weed_objects,weed_positive_images,weed_negative_images,crop_pixel_ratio,weed_pixel_ratio,median_object_area,object_area_q1,object_area_q3,notes
+cropandweed,unknown,8034,8034,8034,8034,83130,23478,59652,5984,2050,0.056004,0.015818,707.0,267.0,2976.0,Primary dataset manifest generated from raw release; test labels may be unavailable where the official release withholds masks.
+phenobench,test,693,693,0,0,0,0,0,,,,,,,,Primary dataset manifest generated from raw release; test labels may be unavailable where the official release withholds masks.
+phenobench,train,1407,1407,1407,0,22136,12475,9661,1360,47,0.118463,0.004971,467.0,132.75,3120.5,Primary dataset manifest generated from raw release; test labels may be unavailable where the official release withholds masks.
+phenobench,val,772,772,772,0,11384,6804,4580,738,34,0.095534,0.005283,588.0,165.0,3780.25,Primary dataset manifest generated from raw release; test labels may be unavailable where the official release withholds masks.
+cwfid,test,20,20,20,20,159,53,106,20,0,,0.922777,20978.5,13000.375,34797.5,CWFID external diagnostic set; crop/weed objects from polygon YAML; weed pixel ratio from binary weed masks.
+cwfid,train,39,39,39,39,321,105,216,38,1,,0.919023,20640.0,12073.75,37444.375,CWFID external diagnostic set; crop/weed objects from polygon YAML; weed pixel ratio from binary weed masks.
+cwfid,train+test,1,1,1,1,14,4,10,1,0,,0.889582,9482.25,7068.875,21582.375,CWFID external diagnostic set; crop/weed objects from polygon YAML; weed pixel ratio from binary weed masks.
+cwfid,all,60,60,60,60,494,162,332,59,1,,0.919784,20586.5,12038.25,36103.0,CWFID all-image external diagnostic summary; not used for training or model selection.
+cwd30,external,196275,196275,,,,,,136064,60211,,,,,,CWD30 external classification only; 10 crop classes and 20 weed classes collapsed to crop/weed.

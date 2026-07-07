@@ -1,0 +1,26 @@
+item	status	evidence_or_note
+No stale internal reports	Pass	Old v46-v54 report files and submitted PDF text dump were removed from revision_v55_major/reports.
+No unresolved cleanup trigger terms	Pass	Current scan found no blocked cleanup terms or duplicated reference-heading wording in the manuscript and data tables; LaTeX command false positives were inspected.
+Pipeline quick index	Pass	Figure 1 was regenerated without fixed table numbers in the quick-index strip, preventing stale table-number references after float or table-order changes.
+Main table spacing	Pass	Main evidence, transfer, seed-stability, and external-validation tables were updated with tabularx and normal column spacing to reduce crowding.
+Figure references resolve	Pass	All Figure refs in main.tex have matching labels across main.tex and included table files.
+Table references resolve	Pass	All Table refs in main.tex have matching labels across main.tex and included table files.
+Figure assets exist	Pass	All includegraphics targets in main.tex resolve to files under figures/ or supplementary/.
+Input tables exist	Pass	All \input table files referenced by main.tex exist under revision_v55_major/tables.
+Dataset statistics added	Pass	Supplementary Table S-dataset-statistics and S-label were regenerated from restored raw-data manifests.
+Detection qualitative audit added	Pass	Supplementary Figure S-detection-failure-plate and Supplementary Table S-detection-failure-plate-index are included.
+Cross-dataset detection stress added	Pass	Supplementary Table/Figure S-cross-dataset-detection-stress-severity-full are included.
+Cross-dataset segmentation stress added	Pass	Supplementary Table/Figure S-cross-dataset-segmentation-stress are included.
+CPU/ONNX inference reference added	Pass	Supplementary Table S-CPU-ONNX-inference-reference is included with 50 warm-up and 200 timed runs.
+Claim discipline	Pass	Manuscript keeps batch-1 inference as reference, stress audit as representative, temperature scaling as confidence correction, and external validation as diagnostic testing.
+Local LaTeX compile	Not run	pdflatex/latexmk are not installed in the current Windows environment; compile and final float inspection should be completed in Overleaf.
+Final Overleaf archive	Pass	D:\Agri\OVERLEAF_IPA_v55_MAJOR_REVISION_UPDATED.zip rebuilt after final table, figure-index, and claim-discipline edits.
+Training-volume clarification	Pass	Section 3.1 now states that CropAndWeed and PhenoBench training volumes were not artificially equalized.
+PhenoBench split clarification	Pass	Section 3.1 now states that PhenoBench-target rows use the mask-available validation split because public test masks are not distributed in the release used here.
+Official metric versus audit metric	Pass	Table 2 and Table 5 text now distinguish official aggregate metrics, image-level bootstrap means, and seed-audit mAP50 rows.
+Severity audit score scope	Pass	Section 4.4 now states that severity-audit clean scores are subset-based and not replacements for official full-evaluation scores.
+Detection qualitative supplement alignment	Pass	Figure 14 caption and Section 4.8 now point to Supplementary Figure/Table S-detection-failure-plate for detection examples.
+TORA explicit discussion	Pass	Related Work now includes an explicit TORA sentence and the comparison table includes TORA as a separate row.
+Supplementary filename alignment	Pass	Added tableS_detection_failure_plate.csv alias and confirmed high-priority supplementary files exist.
+Final visual QA previews	Pass	Key figures were rendered to local PNG previews and visually checked; Pareto markers were slightly reduced without adding leader lines.
+Response letter locations	Pass	Submit-ready response letter now gives concrete section/table/figure/supplement locations for major revisions.

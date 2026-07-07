@@ -1,1 +1,4 @@
-file	check	location	context
+item	status	note
+raw_datasets_excluded	pass	data/raw contains only placeholder files
+checkpoints_excluded	pass	no checkpoint extensions are included
+major_revision_outputs_included	pass	paper_artifacts/revision_outputs added

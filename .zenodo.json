@@ -19,6 +19,11 @@
   ],
   "related_identifiers": [
     {
+      "identifier": "10.5281/zenodo.20727251",
+      "relation": "isIdenticalTo",
+      "scheme": "doi"
+    },
+    {
       "identifier": "https://github.com/Fytap/AgriReliabilityBench",
       "relation": "isSupplementTo",
       "scheme": "url"

@@ -10,6 +10,8 @@ Repository: https://github.com/Fytap/AgriReliabilityBench
 
 Release version: `1.0.0`
 
+Archived release DOI: https://doi.org/10.5281/zenodo.20727251
+
 ## What this repository supports
 
 AgriReliabilityBench evaluates whether agricultural vision models remain reliable when moving between datasets, task formulations, label levels, image conditions, and batch-1 inference constraints. The paper is a benchmark and decision-support study, not a new-model paper.
@@ -29,6 +31,8 @@ src/agri_reliability/    Dataset adapters, label mapping, metrics, stressors, an
 scripts/                 Manifest, training, evaluation, calibration, bootstrap, stress, and figure scripts
 data/                    Empty local data roots; raw datasets are intentionally excluded
 paper_artifacts/         Main tables, figures, and supplementary result tables used by the manuscript
+paper_artifacts/revision_outputs/
+                         Derived major-revision audit outputs, small CSV/JSON metrics, and qualitative plates
 reports/                 Release audit, file manifest, and reproducibility reports
 .github/workflows/       Lightweight smoke-test workflow
 ```
@@ -38,6 +42,7 @@ reports/                 Release audit, file manifest, and reproducibility repor
 - Source code for manifest generation, label harmonization, derived task construction, metrics, stressors, and plotting.
 - Configuration files for the paper datasets and benchmark protocols.
 - Published aggregate tables, supplementary CSVs, qualitative figure assets, and audit reports.
+- Major-revision derived experiment outputs, including cross-dataset stress audits, detection failure plates, CPU/ONNX timing summaries, and dataset/statistics audits.
 - Environment files and command templates for reproducing the pipeline after obtaining the licensed datasets.
 - A smoke test that runs without GPU and without raw datasets.
 

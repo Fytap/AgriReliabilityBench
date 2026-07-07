@@ -1,13 +1,13 @@
 \begin{table}[!htbp]
 \centering
-\small
-\setlength{\tabcolsep}{0pt}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
 \renewcommand{\arraystretch}{1.17}
-\caption{Three-seed stability summary. Scores are mean $\pm$ SD across seeds 0, 1, and 2; rank ranges summarize transfer-ranking stability within task and direction.}
+\caption{Representative three-seed stability summary. Scores are mean $\pm$ SD across seeds 0, 1, and 2 for audited configurations; rank ranges summarize transfer-ranking stability within task and direction. Detection seed-audit rows use mAP50, whereas the compact official transfer summary reports detection mAP50--95.}
 \label{tab:multiseed}
-\begin{tabular*}{\textwidth}{@{}P{0.130\textwidth}@{\hspace{0.024\textwidth}}P{0.190\textwidth}@{\hspace{0.022\textwidth}}C{0.170\textwidth}@{\hspace{0.018\textwidth}}C{0.135\textwidth}@{\hspace{0.018\textwidth}}C{0.135\textwidth}@{\hspace{0.016\textwidth}}C{0.095\textwidth}@{\hspace{0.012\textwidth}}@{}}
+\begin{tabularx}{\textwidth}{@{}P{0.145\textwidth}P{0.190\textwidth}C{0.155\textwidth}C{0.135\textwidth}C{0.135\textwidth}C{0.105\textwidth}@{}}
 \toprule
-Task & Model & Direction & External score & Retention & Rank range \\
+Task & Model & Direction & External score (task metric) & Retention & Rank range \\
 \midrule
 Classification & DINOv2-S & C\&W $\rightarrow$ PB & 0.626 $\pm$ 0.121 & 0.767 $\pm$ 0.122 & 1--5 \\
 Classification & DINOv2-S & PB $\rightarrow$ C\&W & 0.579 $\pm$ 0.056 & 0.808 $\pm$ 0.082 & 1--1 \\
@@ -16,5 +16,5 @@ Detection & RT-DETR-L & PB $\rightarrow$ C\&W & 0.341 $\pm$ 0.013 & 0.488 $\pm$ 
 Segmentation & SegFormer-B0 & C\&W $\rightarrow$ PB & 0.548 $\pm$ 0.055 & 0.671 $\pm$ 0.079 & 1--2 \\
 Segmentation & Mask2Former-Swin-T & PB $\rightarrow$ C\&W & 0.443 $\pm$ 0.010 & 0.506 $\pm$ 0.011 & 1--3 \\
 \bottomrule
-\end{tabular*}
+\end{tabularx}
 \end{table}

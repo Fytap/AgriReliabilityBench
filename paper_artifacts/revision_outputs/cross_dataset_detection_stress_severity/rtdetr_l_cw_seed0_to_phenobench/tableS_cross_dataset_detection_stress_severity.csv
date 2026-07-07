@@ -1,0 +1,11 @@
+source_train,target_test,model,audit_scope,corruption_family,severity,corruption,precision,recall,mAP50,mAP50_95
+CropAndWeed,PhenoBench-val,RT-DETR-L,representative_cross_dataset_detection_severity,clean,clean,clean,0.26454392017180584,0.2735549007572434,0.18119024282273116,0.1354674878646943
+CropAndWeed,PhenoBench-val,RT-DETR-L,representative_cross_dataset_detection_severity,blur,3,gaussian_blur_3,0.18345897598538818,0.19974642195955628,0.10477035410001634,0.07079927957174027
+CropAndWeed,PhenoBench-val,RT-DETR-L,representative_cross_dataset_detection_severity,blur,5,gaussian_blur_5,0.16490469520953588,0.15011627444986536,0.09924832680863009,0.06425089980917456
+CropAndWeed,PhenoBench-val,RT-DETR-L,representative_cross_dataset_detection_severity,blur,7,gaussian_blur_7,0.20256631000835945,0.14004908825101012,0.11209646754374505,0.06913019965438787
+CropAndWeed,PhenoBench-val,RT-DETR-L,representative_cross_dataset_detection_severity,jpeg,70,jpeg_quality_70,0.2565619016242388,0.2504481917863534,0.17494876128943934,0.13236893600680447
+CropAndWeed,PhenoBench-val,RT-DETR-L,representative_cross_dataset_detection_severity,jpeg,50,jpeg_quality_50,0.2382653769132794,0.2289132960725345,0.15967141711562208,0.121666197817392
+CropAndWeed,PhenoBench-val,RT-DETR-L,representative_cross_dataset_detection_severity,jpeg,30,jpeg_quality_30,0.2108168506914766,0.19849341881748722,0.1318637798287663,0.09769969673350189
+CropAndWeed,PhenoBench-val,RT-DETR-L,representative_cross_dataset_detection_severity,low_resolution,0.75,low_resolution_0.75,0.23698399681576127,0.2615337929714771,0.17709954576412226,0.13396677678582214
+CropAndWeed,PhenoBench-val,RT-DETR-L,representative_cross_dataset_detection_severity,low_resolution,0.5,low_resolution_0.5,0.23021798457340198,0.24027579910304883,0.1697303047440762,0.12810725469800985
+CropAndWeed,PhenoBench-val,RT-DETR-L,representative_cross_dataset_detection_severity,low_resolution,0.25,low_resolution_0.25,0.2061406235829278,0.22606846408262782,0.13239040586679568,0.0945909089705775

@@ -1,0 +1,11 @@
+source_train,target_test,model,audit_scope,corruption_family,severity,corruption,precision,recall,mAP50,mAP50_95
+cropandweed,PhenoBench-val,RT-DETR-L,representative_cross_dataset_detection_severity,clean,clean,clean,0.26633637491496687,0.2014422410319074,0.14044370764109215,0.09833338726494958
+cropandweed,PhenoBench-val,RT-DETR-L,representative_cross_dataset_detection_severity,blur,3,gaussian_blur_3,0.10738960102645005,0.10436665696361518,0.059045022542575425,0.039133240069967365
+cropandweed,PhenoBench-val,RT-DETR-L,representative_cross_dataset_detection_severity,blur,5,gaussian_blur_5,0.04154408469306884,0.08212024918733565,0.015407419082289587,0.008766922044143475
+cropandweed,PhenoBench-val,RT-DETR-L,representative_cross_dataset_detection_severity,blur,7,gaussian_blur_7,0.03047905950886204,0.07366947244319863,0.010754008480816403,0.00628619948905026
+cropandweed,PhenoBench-val,RT-DETR-L,representative_cross_dataset_detection_severity,jpeg,70,jpeg_quality_70,0.24664585727939814,0.17824573153575518,0.12908555717966977,0.09107896115944801
+cropandweed,PhenoBench-val,RT-DETR-L,representative_cross_dataset_detection_severity,jpeg,50,jpeg_quality_50,0.22013993128069334,0.15957756049068791,0.10799594053340672,0.07566630683650621
+cropandweed,PhenoBench-val,RT-DETR-L,representative_cross_dataset_detection_severity,jpeg,30,jpeg_quality_30,0.16754202784816308,0.13659045041348783,0.08195443619055548,0.05450075975829675
+cropandweed,PhenoBench-val,RT-DETR-L,representative_cross_dataset_detection_severity,low_resolution,0.75,low_resolution_0.75,0.27117521918720205,0.19574629304242558,0.1446256744042871,0.10631896871359206
+cropandweed,PhenoBench-val,RT-DETR-L,representative_cross_dataset_detection_severity,low_resolution,0.5,low_resolution_0.5,0.2730981199347186,0.18472930704862126,0.14529631407189214,0.11149050946502019
+cropandweed,PhenoBench-val,RT-DETR-L,representative_cross_dataset_detection_severity,low_resolution,0.25,low_resolution_0.25,0.20070434027611594,0.13663565474110287,0.10612807212649589,0.07925475543137123

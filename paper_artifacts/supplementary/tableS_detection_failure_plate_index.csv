@@ -1,0 +1,4 @@
+image,failure_note,n_gt,n_pred,max_gt_iou
+/mnt/lz/AgriReliabilityBench_IPA_revision/external/detection_failure_yolo/images/qual/qual_000000_ave-0279-0011.jpg,missed weed,11,7,0.9498
+/mnt/lz/AgriReliabilityBench_IPA_revision/external/detection_failure_yolo/images/qual/qual_000001_ave-0432-0004.jpg,low-overlap localization,2,2,0.8957
+/mnt/lz/AgriReliabilityBench_IPA_revision/external/detection_failure_yolo/images/qual/qual_000002_vwg-0546-0042.jpg,missed weed,4,3,0.0000

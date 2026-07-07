@@ -1,17 +1,17 @@
 \begin{table}[!htbp]
 \centering
-\footnotesize
-\setlength{\tabcolsep}{0pt}
-\renewcommand{\arraystretch}{1.18}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.20}
 \caption{Compact cross-dataset transfer summary with concrete uncertainty examples. Official aggregate metrics remain the ranking scores; bootstrap means can differ because they summarize image-resampled records rather than the full-set official evaluator.}
 \label{tab:transfer}
-\begin{tabular*}{\textwidth}{@{}C{0.045\textwidth}@{\hspace{0.010\textwidth}}C{0.078\textwidth}@{\hspace{0.014\textwidth}}P{0.130\textwidth}@{\hspace{0.016\textwidth}}C{0.090\textwidth}@{\hspace{0.018\textwidth}}C{0.068\textwidth}@{\hspace{0.018\textwidth}}C{0.074\textwidth}@{\hspace{0.016\textwidth}}P{0.265\textwidth}@{\hspace{0.014\textwidth}}P{0.125\textwidth}@{}}
+\begin{tabularx}{\textwidth}{@{}C{0.045\textwidth}C{0.078\textwidth}P{0.145\textwidth}C{0.100\textwidth}C{0.070\textwidth}C{0.070\textwidth}X P{0.135\textwidth}@{}}
 \toprule
-Task & Metric & Model & Direction & External score & Retention & Uncertainty example & Caution \\
+Task & Metric & Model & Direction & Score & Ret. & Uncertainty example & Caution \\
 \midrule
 CLS & bal. acc. & Swin-T & PB $\rightarrow$ C\&W & 0.504 & 1.004 & retention 1.004 [0.996, 1.012] & Read with external score. \\
-DET & mAP50--95 & YOLO11m & C\&W $\rightarrow$ PB & 0.409 & 0.611 & mAP50--95 0.454 [0.443, 0.466] & Bootstrap complements official mAP. \\
+DET & mAP50--95 & YOLO11m & C\&W $\rightarrow$ PB & 0.409 & 0.611 & mAP50--95: 0.454 [0.443, 0.466] & Bootstrap complements official mAP. \\
 SEG & mIoU & Mask2Former-Swin-T & C\&W $\rightarrow$ PB & 0.579 & 0.656 & mIoU 0.609 [0.597, 0.620]; weed 0.060 [0.050, 0.071] & Inspect weed IoU. \\
 \bottomrule
-\end{tabular*}
+\end{tabularx}
 \end{table}

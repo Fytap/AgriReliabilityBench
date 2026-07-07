@@ -1,11 +1,11 @@
 \begin{table}[!htbp]
 \centering
 \footnotesize
-\setlength{\tabcolsep}{0pt}
+\setlength{\tabcolsep}{3pt}
 \renewcommand{\arraystretch}{1.17}
-\caption{Benchmark evidence coverage and uncertainty reporting. CI denotes bootstrap intervals from matched prediction records; SD denotes the completed three-seed audit.}
+\caption{Benchmark evidence coverage and uncertainty reporting. CI denotes bootstrap intervals from matched prediction records; SD denotes the representative three-seed audit.}
 \label{tab:evidence}
-\begin{tabular*}{\textwidth}{@{}P{0.225\textwidth}@{\hspace{0.018\textwidth}}P{0.155\textwidth}@{\hspace{0.018\textwidth}}P{0.345\textwidth}@{\hspace{0.018\textwidth}}P{0.205\textwidth}@{}}
+\begin{tabularx}{\textwidth}{@{}P{0.21\textwidth}P{0.15\textwidth}X P{0.21\textwidth}@{}}
 \toprule
 Evidence block & Task scope & Uncertainty evidence & Supplementary source \\
 \midrule
@@ -14,8 +14,8 @@ Cross-dataset transfer & Detection & Official mAP, three-seed SD, and YOLO11m/RT
 Cross-dataset transfer & Segmentation & Official mIoU, three-seed SD, and per-image IoU CI for available records & S-segmentation-CI; S-multiseed \\
 Calibration / selective prediction & Classification & ECE, Brier, AURC, risk at 80 / 90\% coverage, and high-confidence wrong counts & S-calibration \\
 External validation & CWFID / CWD30 & Full all-model tables with sample and imbalance notes & S-CWFID; S-CWD30 \\
-Stress robustness & All tasks & Controlled corruption audit plus representative multi-severity audit where completed & S-stress; S-stress-severity \\
+Stress robustness & All tasks & Controlled corruption audit plus representative severity audits, including cross-dataset detection and segmentation probes & S-stress; S-stress-severity \\
 Training reproducibility & All tasks & Protocol table, command templates, environment file, and seed audit & S-training-protocol; S-multiseed \\
 \bottomrule
-\end{tabular*}
+\end{tabularx}
 \end{table}

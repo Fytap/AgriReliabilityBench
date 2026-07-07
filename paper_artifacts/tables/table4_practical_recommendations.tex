@@ -10,7 +10,7 @@
 Task & Most relevant use case & Strong observed choices & Caution for use \\
 \midrule
 Classification & Image-level weed-presence screening & ConvNeXtV2-T for CropAndWeed in-domain; DINOv2-S for CropAndWeed to PhenoBench transfer & Use balanced accuracy with calibration, Brier score, AURC, and high-confidence wrong counts. \\
-Detection & Crop/weed object localization for counting or actuation targets & YOLO11m for CropAndWeed to PhenoBench transfer; RT-DETR-L for strongest CWFID external detection point estimate & External CWFID mAP remains low, so transfer should be verified before spatial actuation. \\
+Detection & Crop/weed object localization for counting or actuation targets & YOLO11m for the strongest mAP50--95 retention and speed--transfer trade-off in plotted C\&W to PB runs; YOLOv5l6u is competitive in the mAP50 seed audit & External CWFID mAP remains low, so transfer should be verified before spatial actuation. \\
 Segmentation & Dense plant maps or spray-mask generation & Mask2Former-Swin-T for strongest observed transfer point estimate; SegFormer-B0 gives stable severity-sweep behavior in the representative audit & Inspect crop and weed IoU separately; mIoU alone can hide weed-mask failures. \\
 \bottomrule
 \end{tabular*}

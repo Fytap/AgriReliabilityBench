@@ -1,6 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software or its derived benchmark artifacts, please cite the archived release."
 title: "AgriReliabilityBench: Reproducibility package for agricultural visual model reliability benchmarking"
+doi: "10.5281/zenodo.20727251"
 version: "1.0.0"
 date-released: "2026-06-17"
 type: software

@@ -1,0 +1,5 @@
+dataset,min_component_pixels,morphological_closing,merge_rule,n_boxes,median_box_area,box_area_iqr,images_with_zero_boxes,mAP_status,note
+CropAndWeed,4,false,none,not_rerun_in_revision,NA,NA,NA,annotation-only unless predictions are re-evaluated,Default benchmark rule used for derived boxes.
+CropAndWeed,16,false,none,not_rerun_in_revision,NA,NA,NA,annotation-only unless predictions are re-evaluated,Sensitivity variant documented but not used for official scores.
+CropAndWeed,64,false,none,not_rerun_in_revision,NA,NA,NA,annotation-only unless predictions are re-evaluated,Sensitivity variant documented but not used for official scores.
+PhenoBench,4/16/64,optional,none/nearby merge,not_rerun_in_revision,NA,NA,NA,annotation-only unless predictions are re-evaluated,Documented conversion variant; official benchmark uses the stated connected-component rule.

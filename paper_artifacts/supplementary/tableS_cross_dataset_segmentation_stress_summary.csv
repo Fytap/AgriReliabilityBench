@@ -1,0 +1,5 @@
+task,model,train_dataset,test_dataset,direction,clean_miou_mean,clean_miou_std,worst_corruption,worst_miou_mean,worst_miou_std,absolute_drop,retention,n_seeds
+segmentation,Mask2Former-Swin-T,cropandweed,phenobench,C&W -> PB,0.540216,0.013670,brightness_minus_20,0.411073,0.029142,0.129142,0.760943,3
+segmentation,Mask2Former-Swin-T,phenobench,cropandweed,PB -> C&W,0.438479,0.004815,jpeg_quality_50,0.439047,0.003973,-0.000568,1.001295,3
+segmentation,SegFormer-B0,cropandweed,phenobench,C&W -> PB,0.584331,0.049247,contrast_0.7,0.514981,0.080353,0.069350,0.881318,3
+segmentation,SegFormer-B0,phenobench,cropandweed,PB -> C&W,0.387813,0.005210,gaussian_blur_3,0.353473,0.021508,0.034341,0.911450,3

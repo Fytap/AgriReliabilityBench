@@ -1,0 +1,2 @@
+backend,model_file,image_size,batch_size,warmup_runs,timed_runs,n_unique_images,preprocessing_included,postprocessing_included,mean_ms,std_ms,median_ms,p95_ms,fps_mean
+PyTorch CPU,/mnt/lz/AgriReliabilityBench_IPA_revision/formal_checkpoints/revision_detection_full/rtdetr_l_cropandweed_seed0_best.pt,640,1,50,200,16,True,True,235.92546408995986,9.147174552496816,234.1178972274065,251.59002467989922,4.238626821641829

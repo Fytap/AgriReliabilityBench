@@ -8,6 +8,7 @@ Included public materials:
 - YAML configuration files for datasets, model families, experiment settings, and stressors.
 - Published tables and supplementary CSVs used for manuscript review.
 - Main and supplementary figures used to inspect calibration, stress robustness, external validation, inference reference, label harmonization, and failure audits.
+- Major-revision derived outputs under `paper_artifacts/revision_outputs/`, including cross-dataset stress audit metrics, detection failure plate source files, CPU/ONNX timing outputs, and dataset/statistics audit files.
 - Reproducibility reports, release audit files, environment files, and smoke-test workflow.
 
 Excluded materials:

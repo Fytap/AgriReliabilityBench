@@ -1,0 +1,3 @@
+dataset,csv,rows,split,source,sample_seed,note
+cropandweed,/mnt/lz/AgriReliabilityBench_IPA_revision/data/revision_converted/cropandweed/segmentation/semantic_segmentation.csv,1223,test,outputs/manifests/cropandweed_manifest.jsonl,1703,Deterministic representative mask-available sample for revision stress audit; not a replacement for the main leaderboard split.
+phenobench,/mnt/lz/AgriReliabilityBench_IPA_revision/data/revision_converted/phenobench/segmentation/semantic_segmentation.csv,772,val,outputs/manifests/phenobench_manifest.jsonl,,All mask-available PhenoBench validation rows from the restored raw-data manifest.
