@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-07T03:15:51Z",
-  "file_count": 388,
+  "generated_at_utc": "2026-07-07T03:35:57+00:00",
+  "file_count": 400,
   "files": [
     {
       "path": ".github/workflows/smoke-test.yml",
@@ -146,6 +146,66 @@
       "path": "METADATA_TO_CONFIRM.md",
       "bytes": 492,
       "sha256": "0a1edd3b944e5b7efe2d8f74144ba4760247b7c72702baa7e3c15dc6d4b4307d"
+    },
+    {
+      "path": "outputs/figures/reliability_diagram.pdf",
+      "bytes": 12503,
+      "sha256": "d491b64c74f6fee7c3dab2c0b3c2338002a54813e7ef2ccddfedd052c86e0ee2"
+    },
+    {
+      "path": "outputs/figures/risk_coverage_curve.pdf",
+      "bytes": 12374,
+      "sha256": "689e123a2d9af45b8ac78e240b1037da4be813fc8410284893278b54ffddf835"
+    },
+    {
+      "path": "outputs/manifests/cropandweed_manifest.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/manifests/phenobench_manifest.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/metrics/cross_dataset_template.csv",
+      "bytes": 585,
+      "sha256": "123d06eb0eecb1c84b0e1f51e3db7e45df3d8ccf2a6094ca5739062928263d70"
+    },
+    {
+      "path": "outputs/metrics/dataset_summary.csv",
+      "bytes": 210,
+      "sha256": "ef8d8831466e9245abe00764354a2b6c2c76652d21bcfd247424dfd415295be0"
+    },
+    {
+      "path": "outputs/metrics/reliability_metrics_template.csv",
+      "bytes": 1342,
+      "sha256": "e53e25b1892ede5403e27ae2caa4eaf00b36d7dfeee60e03081655f369a7ea52"
+    },
+    {
+      "path": "outputs/metrics/risk_coverage.csv",
+      "bytes": 3156,
+      "sha256": "591e77f096d04d8853f3a081328ca40b6311272cb2c929f306a01d26474994cc"
+    },
+    {
+      "path": "outputs/metrics/smoke_metrics.csv",
+      "bytes": 770,
+      "sha256": "bcd3fb0ef4550f144855b8d21ccbbb4947d9b0896ab7e1d3a5853c37ff496e3f"
+    },
+    {
+      "path": "outputs/reports/manifest_report.md",
+      "bytes": 679,
+      "sha256": "582d0012788f651d7c7db6297cb20ed687c3aaa174c703017f4e83b0af399a1a"
+    },
+    {
+      "path": "outputs/reports/smoke_config.json",
+      "bytes": 3003,
+      "sha256": "63a0c7a866ab3a78039f38e36aaaeca072361e12b117ae5f10a898412cdf23e4"
+    },
+    {
+      "path": "outputs/reports/smoke_report.md",
+      "bytes": 2282,
+      "sha256": "fd5782092ae943e79e25a40d130de93838c8c018ba170dbcc47afe27e342065c"
     },
     {
       "path": "paper_artifacts/figures/benchmark_pipeline_schematic.pdf",
@@ -1629,8 +1689,8 @@
     },
     {
       "path": "paper_artifacts/tables/table5_external_validation_summary.tex",
-      "bytes": 1467,
-      "sha256": "57d80a4b053e24a2a2d3e2c48fa844d495fe3c63a1cb8e1fcb41c3e326d74fa8"
+      "bytes": 1511,
+      "sha256": "cbe0060070dd449cfa37b275c4bcd06704351d7d006ce485129ac610df4d3589"
     },
     {
       "path": "paper_artifacts/tables/table6_multiseed_summary.csv",
@@ -1639,8 +1699,8 @@
     },
     {
       "path": "paper_artifacts/tables/table6_multiseed_summary.tex",
-      "bytes": 1340,
-      "sha256": "f65fb037815a69c870451f20f66e787b11e6facf9136c9f21462b6cddeb8df09"
+      "bytes": 1347,
+      "sha256": "cf713697a6551c302814f9d17520ecd70df20f3bf9004c249df2c13f13ef150f"
     },
     {
       "path": "paper_artifacts/tables/table_temperature_scaling_summary.tex",
@@ -1669,23 +1729,23 @@
     },
     {
       "path": "reports/file_manifest.json",
-      "bytes": 27016,
-      "sha256": "3ccf79c685c945c28e76274f9213bb29b52f39b26be5e17fd62c027427a05730"
+      "bytes": 95840,
+      "sha256": "03fa7a26ae662e2b2da10402fca7a8e6f189ad8b140780120dbb987b4f552fba"
     },
     {
       "path": "reports/file_manifest.tsv",
-      "bytes": 18203,
-      "sha256": "7e356fc27d5196d960a12e3707d72b5148bd3d403e8baa17ed052d19bb17f25a"
+      "bytes": 69384,
+      "sha256": "5897494fb13440ad47623dc1e966694ff7850523fb4894dd3e0b3976191916ff"
     },
     {
       "path": "reports/github_release_audit.tsv",
-      "bytes": 29,
-      "sha256": "48a55529fb1893c21dde2c36f4c169f2e46a09ca29ed4b8e87341038cf5228c5"
+      "bytes": 229,
+      "sha256": "01d1c7349f6a08167de4131a39d9f6785aac1b89a239338d0584df996095b4c2"
     },
     {
       "path": "reports/github_release_summary.md",
-      "bytes": 676,
-      "sha256": "d8d1cb35cd8bd710580d1016d34d94cc31e70a4ec77015b7321d8e916414621c"
+      "bytes": 591,
+      "sha256": "afeb83d0f1d1198381708afcf1e05c3f501ce42a947072f165a9e29206369b0e"
     },
     {
       "path": "reports/major_revision_v55/detection_failure_plate_audit.md",
