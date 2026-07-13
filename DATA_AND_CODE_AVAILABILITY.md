@@ -2,9 +2,9 @@
 
 Repository: https://github.com/Fytap/AgriReliabilityBench
 
-Release: `1.0.0`
+Release: `1.0.1`
 
-Archived release DOI: https://doi.org/10.5281/zenodo.20727251
+The version-specific Zenodo DOI is assigned when the `v1.0.1` GitHub release is archived. Once issued, the DOI is recorded consistently in this file, `README.md`, `CITATION.cff`, the Zenodo record, and the manuscript Data and Code Availability statement.
 
 The public repository contains code, configuration files, derived result tables, figure assets, supplementary materials, audit reports, and reproducibility scripts for the benchmark.
 

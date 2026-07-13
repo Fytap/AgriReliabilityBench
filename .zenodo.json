@@ -1,32 +1,42 @@
 {
-  "title": "AgriReliabilityBench: Reproducibility package for agricultural visual model reliability benchmarking",
-  "description": "Code, configurations, derived result tables, figures, supplementary materials, and reproducibility scripts for an agricultural visual model reliability benchmark.",
+  "title": "AgriReliabilityBench: Reproducible reliability benchmarking for crop-weed visual perception under dataset shift",
+  "description": "Code, configurations, derived result tables, figures, supplementary materials, and reproducibility scripts accompanying the agricultural crop-weed visual reliability benchmark.",
   "upload_type": "software",
   "license": "MIT",
   "creators": [
     {
-      "name": "AgriReliabilityBench contributors"
+      "name": "Liu, Shuhao",
+      "affiliation": "Harbin University of Science and Technology",
+      "orcid": "0009-0000-2996-9868"
+    },
+    {
+      "name": "Chen, Zhuo",
+      "affiliation": "Chalmers University of Technology",
+      "orcid": "0009-0007-7510-8648"
+    },
+    {
+      "name": "Liu, Jie",
+      "affiliation": "Harbin University of Science and Technology",
+      "orcid": "0009-0004-8073-0085"
+    },
+    {
+      "name": "Ling, Zhi",
+      "affiliation": "Independent researcher",
+      "orcid": "0009-0003-2787-156X"
+    },
+    {
+      "name": "Yan, Yu",
+      "affiliation": "Independent researcher",
+      "orcid": "0009-0006-4410-4444"
     }
   ],
-  "version": "1.0.0",
-  "publication_date": "2026-06-17",
+  "version": "1.0.1",
+  "publication_date": "2026-07-13",
   "keywords": [
     "agricultural vision",
     "crop-weed perception",
     "dataset shift",
     "model reliability",
     "calibration"
-  ],
-  "related_identifiers": [
-    {
-      "identifier": "10.5281/zenodo.20727251",
-      "relation": "isIdenticalTo",
-      "scheme": "doi"
-    },
-    {
-      "identifier": "https://github.com/Fytap/AgriReliabilityBench",
-      "relation": "isSupplementTo",
-      "scheme": "url"
-    }
   ]
 }

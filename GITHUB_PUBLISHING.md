@@ -1,25 +1,24 @@
-# GitHub publishing checklist
+# GitHub and Zenodo publishing checklist
 
 Target repository: https://github.com/Fytap/AgriReliabilityBench.git
 
-Recommended publish commands after installing Git and authenticating to GitHub:
+The current public base release is `v1.0.0`. Because the revision artifacts on `main` post-date that tag, publish them as a new `v1.0.1` release rather than modifying the historical release.
+
+Recommended commands after authenticating to GitHub:
 
 ```powershell
-cd <local clone of AgriReliabilityBench_v1.0.0>
-git init
-git branch -M main
-git remote add origin https://github.com/Fytap/AgriReliabilityBench.git
-git add .
-git commit -m "Release reproducibility package for IPA benchmark"
-git push -u origin main
-git tag v1.0.0
-git push origin v1.0.0
+cd <local clone of AgriReliabilityBench>
+git checkout main
+git pull --ff-only origin main
+git tag -a v1.0.1 -m "AgriReliabilityBench v1.0.1 revised reproducibility package"
+git push origin v1.0.1
 ```
 
 Before creating the archival release:
 
-1. Confirm author names and ORCID identifiers in `CITATION.cff` and `.zenodo.json`.
-2. Confirm whether the repository should be public before journal submission.
-3. Verify that no raw datasets, large checkpoints, credentials, or private paths are committed.
-4. Create a GitHub release from tag `v1.0.0`.
-5. If Zenodo is connected, copy the generated DOI into the manuscript Data and Code Availability statement.
+1. Confirm the author names, affiliations, and ORCID identifiers in `CITATION.cff` and `.zenodo.json`.
+2. Verify that no raw datasets, large checkpoints, credentials, or private paths are committed.
+3. Create a GitHub release from tag `v1.0.1`.
+4. Create the linked Zenodo version and confirm its title, author order, version, and files.
+5. Copy the generated version-specific DOI into `README.md`, `CITATION.cff`, `DATA_AND_CODE_AVAILABILITY.md`, and the manuscript Data and Code Availability statement.
+6. Re-run the metadata validation after DOI insertion.

@@ -2,15 +2,15 @@
 
 Reproducibility package for the manuscript:
 
-**A reproducible benchmark for agricultural visual model reliability under dataset shift and image-condition stress**
+**Reproducible reliability benchmarking for crop-weed visual perception under dataset shift**
 
 This repository is prepared for paper review and public reproducibility. It contains the benchmark code, configuration files, derived result tables, figure assets, supplementary materials, and audit reports needed to inspect the reported experiments. It does **not** redistribute raw datasets or large trained checkpoints.
 
 Repository: https://github.com/Fytap/AgriReliabilityBench
 
-Release version: `1.0.0`
+Release version: `1.0.1`
 
-Archived release DOI: https://doi.org/10.5281/zenodo.20727251
+The version-specific Zenodo DOI is issued when the `v1.0.1` GitHub release is archived. It is then recorded in this README, `CITATION.cff`, the Zenodo record, and the manuscript Data and Code Availability statement.
 
 ## What this repository supports
 
@@ -86,7 +86,7 @@ External validation should be interpreted as a diagnostic stress test rather tha
 
 ## Citation
 
-If you use this repository, cite the archived release metadata in `CITATION.cff`. Author names, ORCID identifiers, and any final archive DOI should be updated when the journal submission metadata is finalized.
+If you use this repository, cite the archived release metadata in `CITATION.cff` and the version-specific Zenodo DOI listed in the release notes. The author order, affiliations, and ORCID identifiers are aligned with the accompanying manuscript.
 
 ## License
 
