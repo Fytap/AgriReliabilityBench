@@ -10,6 +10,7 @@ import yaml
 
 
 ROOT = Path(__file__).resolve().parents[1]
+EXPECTED_DOI = "10.5281/zenodo.21332296"
 EXPECTED_AUTHORS = [
     ("Liu", "Shuhao", "0009-0000-2996-9868"),
     ("Chen", "Zhuo", "0009-0007-7510-8648"),
@@ -27,6 +28,11 @@ def main() -> None:
     assert not (ROOT / "METADATA_TO_CONFIRM.md").exists(), "Remove stale confirmation notes."
     assert citation["version"] == zenodo["version"] == version, "Version mismatch."
     assert citation["title"] == zenodo["title"], "Title mismatch."
+    assert citation["doi"] == EXPECTED_DOI, "Citation DOI mismatch."
+    assert any(item.get("identifier") == EXPECTED_DOI for item in zenodo.get("related_identifiers", [])), "Zenodo DOI relation missing."
+
+    for filename in ("README.md", "DATA_AND_CODE_AVAILABILITY.md"):
+        assert EXPECTED_DOI in (ROOT / filename).read_text(encoding="utf-8"), f"{filename} DOI mismatch."
 
     cff_authors = [
         (item["family-names"], item["given-names"], item["orcid"].removeprefix("https://orcid.org/"))

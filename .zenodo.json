@@ -38,5 +38,17 @@
     "dataset shift",
     "model reliability",
     "calibration"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.21332296",
+      "relation": "isIdenticalTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/Fytap/AgriReliabilityBench/tree/v1.0.1",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
   ]
 }

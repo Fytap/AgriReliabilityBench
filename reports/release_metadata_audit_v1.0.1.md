@@ -8,7 +8,8 @@ Prepared on 2026-07-13 for the public reproducibility package.
 | Version | `VERSION`, `CITATION.cff`, `.zenodo.json` | 1.0.1 |
 | Author order | `CITATION.cff`, `.zenodo.json` | Shuhao Liu; Zhuo Chen; Jie Liu; Zhi Ling; Yu Yan |
 | ORCIDs | `CITATION.cff`, `.zenodo.json` | Supplied ORCIDs for all five authors |
+| Version-specific DOI | Zenodo record, `CITATION.cff`, README | 10.5281/zenodo.21332296 |
 | Raw datasets | `DATASETS.md`, README | Excluded; obtained from original providers |
 | Model checkpoints | README | Excluded from the public release |
 
-Before publication, create the GitHub `v1.0.1` release, create the corresponding Zenodo version, and verify that the issued version-specific DOI, title, creator order, and files match this audit. The prior v1.0.0 DOI must not be cited as the archival DOI for v1.0.1.
+Verified publication: the GitHub `v1.0.1` release is archived as Zenodo record 21332296. Its title, creator order, version, and DOI match this audit. The prior v1.0.0 DOI is not cited as the archival DOI for v1.0.1.

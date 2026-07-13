@@ -1,6 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software or its derived benchmark artifacts, please cite the archived release."
 title: "AgriReliabilityBench: Reproducible reliability benchmarking for crop-weed visual perception under dataset shift"
+doi: "10.5281/zenodo.21332296"
 version: "1.0.1"
 date-released: "2026-07-13"
 type: software

@@ -2,7 +2,7 @@
 
 Target repository: https://github.com/Fytap/AgriReliabilityBench.git
 
-The current public base release is `v1.0.0`. Because the revision artifacts on `main` post-date that tag, publish them as a new `v1.0.1` release rather than modifying the historical release.
+The current public release is `v1.0.1`, archived at https://doi.org/10.5281/zenodo.21332296. The historical `v1.0.0` release remains unchanged.
 
 Recommended commands after authenticating to GitHub:
 
@@ -16,7 +16,7 @@ git push origin v1.0.1
 
 Before creating the archival release:
 
-1. Confirm the author names, affiliations, and ORCID identifiers in `CITATION.cff` and `.zenodo.json`.
+1. Confirm the author names, affiliations, ORCID identifiers, and version-specific DOI in `CITATION.cff` and `.zenodo.json`.
 2. Verify that no raw datasets, large checkpoints, credentials, or private paths are committed.
 3. Create a GitHub release from tag `v1.0.1`.
 4. Create the linked Zenodo version and confirm its title, author order, version, and files.

@@ -1,6 +1,6 @@
 {
-    "generated_at_utc":  "2026-07-13T06:04:49Z",
-    "file_count":  387,
+    "generated_at_utc":  "2026-07-13T06:16:05Z",
+    "file_count":  413,
     "files":  [
                   {
                       "path":  ".github/workflows/smoke-test.yml",
@@ -14,13 +14,13 @@
                   },
                   {
                       "path":  ".zenodo.json",
-                      "bytes":  1266,
-                      "sha256":  "3ef287ca1750bbc066eab2328d90916f196d52b6b9c23d93375675e489e5b9c6"
+                      "bytes":  1566,
+                      "sha256":  "f46b840fa3b1e20eaffe3288e6431d66fd3fd77d1c00f827fe1d24dcd0c4648d"
                   },
                   {
                       "path":  "CITATION.cff",
-                      "bytes":  1625,
-                      "sha256":  "55df046763e6a1cc330c024b72649da376b9317ebe40bffe5c22e0df9ae22790"
+                      "bytes":  1656,
+                      "sha256":  "36b98a7fe71dd13a103a0a5f8eb5b82eb691f773d2c4cc9add4539ae0203473c"
                   },
                   {
                       "path":  "configs/datasets/agriculture_vision.yaml",
@@ -119,8 +119,8 @@
                   },
                   {
                       "path":  "DATA_AND_CODE_AVAILABILITY.md",
-                      "bytes":  1118,
-                      "sha256":  "f1b009c15a774aaa473d1bbd6b82e8d61a6d55e6ae820a56334bfc24ff0aab96"
+                      "bytes":  925,
+                      "sha256":  "62a48dce7d1f20b739c5db9120b099ffe9993d3708e1bb1f0687a5f0c4e173e2"
                   },
                   {
                       "path":  "DATASETS.md",
@@ -134,13 +134,73 @@
                   },
                   {
                       "path":  "GITHUB_PUBLISHING.md",
-                      "bytes":  1172,
-                      "sha256":  "a08a0b900b2be3fb1831cffb48fdbd594ba059e78f21036e52c5ae8204a5b857"
+                      "bytes":  1147,
+                      "sha256":  "a3ea1d32791e71b08eba01cf60456904e4a875a6a6a52ff71e4606f43b47e667"
                   },
                   {
                       "path":  "LICENSE",
                       "bytes":  1129,
                       "sha256":  "757b9934a0e5262a8fc11816dda01d4a4a9f02ffa71ce4ed979fafd9816c4672"
+                  },
+                  {
+                      "path":  "outputs/figures/reliability_diagram.pdf",
+                      "bytes":  12503,
+                      "sha256":  "bd79518b3eecf3c9211bb10cf93bb91d35608b889434ef27d7c2e04d47716ea1"
+                  },
+                  {
+                      "path":  "outputs/figures/risk_coverage_curve.pdf",
+                      "bytes":  12374,
+                      "sha256":  "c32d725fe52b7991fdf6fdd677ba9318fd13cff8ae6e398a30dc3ea40651d669"
+                  },
+                  {
+                      "path":  "outputs/manifests/cropandweed_manifest.jsonl",
+                      "bytes":  0,
+                      "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                  },
+                  {
+                      "path":  "outputs/manifests/phenobench_manifest.jsonl",
+                      "bytes":  0,
+                      "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                  },
+                  {
+                      "path":  "outputs/metrics/cross_dataset_template.csv",
+                      "bytes":  585,
+                      "sha256":  "123d06eb0eecb1c84b0e1f51e3db7e45df3d8ccf2a6094ca5739062928263d70"
+                  },
+                  {
+                      "path":  "outputs/metrics/dataset_summary.csv",
+                      "bytes":  210,
+                      "sha256":  "ef8d8831466e9245abe00764354a2b6c2c76652d21bcfd247424dfd415295be0"
+                  },
+                  {
+                      "path":  "outputs/metrics/reliability_metrics_template.csv",
+                      "bytes":  1342,
+                      "sha256":  "e53e25b1892ede5403e27ae2caa4eaf00b36d7dfeee60e03081655f369a7ea52"
+                  },
+                  {
+                      "path":  "outputs/metrics/risk_coverage.csv",
+                      "bytes":  3156,
+                      "sha256":  "591e77f096d04d8853f3a081328ca40b6311272cb2c929f306a01d26474994cc"
+                  },
+                  {
+                      "path":  "outputs/metrics/smoke_metrics.csv",
+                      "bytes":  770,
+                      "sha256":  "bcd3fb0ef4550f144855b8d21ccbbb4947d9b0896ab7e1d3a5853c37ff496e3f"
+                  },
+                  {
+                      "path":  "outputs/reports/manifest_report.md",
+                      "bytes":  679,
+                      "sha256":  "582d0012788f651d7c7db6297cb20ed687c3aaa174c703017f4e83b0af399a1a"
+                  },
+                  {
+                      "path":  "outputs/reports/smoke_config.json",
+                      "bytes":  3003,
+                      "sha256":  "63a0c7a866ab3a78039f38e36aaaeca072361e12b117ae5f10a898412cdf23e4"
+                  },
+                  {
+                      "path":  "outputs/reports/smoke_report.md",
+                      "bytes":  2282,
+                      "sha256":  "fd5782092ae943e79e25a40d130de93838c8c018ba170dbcc47afe27e342065c"
                   },
                   {
                       "path":  "paper_artifacts/figures/benchmark_pipeline_schematic.pdf",
@@ -1654,8 +1714,8 @@
                   },
                   {
                       "path":  "README.md",
-                      "bytes":  5092,
-                      "sha256":  "f749476d3784cd9259e91238b48abae7b5d1d2716d08b63ac3847c16f6ef0d5d"
+                      "bytes":  4908,
+                      "sha256":  "2a5cbaefdae096465644c893f10ee65f382d5ef92293d4bef53134a2e12472ba"
                   },
                   {
                       "path":  "reports/curated_script_inventory.md",
@@ -1669,8 +1729,8 @@
                   },
                   {
                       "path":  "reports/github_release_summary.md",
-                      "bytes":  812,
-                      "sha256":  "b5850cf9661874be65906851f29bfcb82cda4da76043806e396575f365e5315e"
+                      "bytes":  699,
+                      "sha256":  "dc68419e59d81360fce7dee75274167cfc0150193e8fd85025b4c65c3e61985e"
                   },
                   {
                       "path":  "reports/major_revision_v55/detection_failure_plate_audit.md",
@@ -1709,8 +1769,8 @@
                   },
                   {
                       "path":  "reports/release_metadata_audit_v1.0.1.md",
-                      "bytes":  992,
-                      "sha256":  "ea0356b5f3248a2f9ba61bb52ab160e9650317e3ed62b23ea634444e9dd102a6"
+                      "bytes":  1032,
+                      "sha256":  "7c6ca2ac754b54f9c695c41ac50fe6574b2a270948b712d1c474f1ceea860093"
                   },
                   {
                       "path":  "REPRODUCIBILITY.md",
@@ -1844,13 +1904,48 @@
                   },
                   {
                       "path":  "scripts/validate_release_metadata.py",
-                      "bytes":  1761,
-                      "sha256":  "a9ac3a5b4ceb37b74c023ded675e1e53e1c06e9be9c4a94b15c21a917fbcdb72"
+                      "bytes":  2183,
+                      "sha256":  "b2822ff89225ab07dd2a4ad4393192768257a9be87cf90a0a3a5fbbbeba29215"
                   },
                   {
                       "path":  "src/agri_reliability/__init__.py",
                       "bytes":  23,
                       "sha256":  "41362a5ea4931c546433d4c48290c5707bf02dbbea1c3aafa9f43d1225e47003"
+                  },
+                  {
+                      "path":  "src/agri_reliability/__pycache__/__init__.cpython-312.pyc",
+                      "bytes":  166,
+                      "sha256":  "7ce43431315826a526f9b5619a3db87db32e8e524ebf7463a4139d4521aec079"
+                  },
+                  {
+                      "path":  "src/agri_reliability/data/__pycache__/cropandweed_adapter.cpython-312.pyc",
+                      "bytes":  727,
+                      "sha256":  "be91e790e9feeaa742cea97b56ff674c2798c1b81ac6ff755bdb2fdc2596a551"
+                  },
+                  {
+                      "path":  "src/agri_reliability/data/__pycache__/dataset_adapter.cpython-312.pyc",
+                      "bytes":  9807,
+                      "sha256":  "36ab60bae0bc9c4a867815bdc7ec6080311f0b550c98f267bf2068801749703a"
+                  },
+                  {
+                      "path":  "src/agri_reliability/data/__pycache__/derive_tasks.cpython-312.pyc",
+                      "bytes":  3965,
+                      "sha256":  "d22478e6d623dbcf20df9ae4baf44ecf17aafc65f0833d14b1841c5fd2d2bd79"
+                  },
+                  {
+                      "path":  "src/agri_reliability/data/__pycache__/label_mapping.cpython-312.pyc",
+                      "bytes":  6061,
+                      "sha256":  "dffdc8fffb247f709446f72e18cb3975daeac0e8474184e0c3fdeb8c97cd7166"
+                  },
+                  {
+                      "path":  "src/agri_reliability/data/__pycache__/manifest.cpython-312.pyc",
+                      "bytes":  2351,
+                      "sha256":  "fe333d11a87fb0a961deb99d9d913eeaee124a735ed3a5c2efd8ed84754cb5e6"
+                  },
+                  {
+                      "path":  "src/agri_reliability/data/__pycache__/phenobench_adapter.cpython-312.pyc",
+                      "bytes":  725,
+                      "sha256":  "79f59241c73bfecf7f6624efc25c9ceaca2ac88bb1d8b596b65c5302a1bae4c3"
                   },
                   {
                       "path":  "src/agri_reliability/data/cropandweed_adapter.py",
@@ -1883,6 +1978,31 @@
                       "sha256":  "b8c52663861575e175619294d7d72ab66876bf6409d22b30efb17e0db37eb829"
                   },
                   {
+                      "path":  "src/agri_reliability/metrics/__pycache__/calibration.cpython-312.pyc",
+                      "bytes":  3853,
+                      "sha256":  "ce3b1141d8e5fc0e5e70ddc2960b9d5fcacd1b9cddef47f86475012eda22c76a"
+                  },
+                  {
+                      "path":  "src/agri_reliability/metrics/__pycache__/classification.cpython-312.pyc",
+                      "bytes":  754,
+                      "sha256":  "0e9ee723e9defe8701d772ecd7d1aba6d5c7e93983b1ca7d911b17dc40c62c08"
+                  },
+                  {
+                      "path":  "src/agri_reliability/metrics/__pycache__/reliability.cpython-312.pyc",
+                      "bytes":  2330,
+                      "sha256":  "d2d4c44d859fcf069d0e4c32b43e7124121b99134bfa88e52f486ac1f33d22cd"
+                  },
+                  {
+                      "path":  "src/agri_reliability/metrics/__pycache__/risk_coverage.cpython-312.pyc",
+                      "bytes":  2323,
+                      "sha256":  "ec95e03500f47f7fe90c7a7b0804d33d6343e3375b57d8ca3e1cf3fb79194e78"
+                  },
+                  {
+                      "path":  "src/agri_reliability/metrics/__pycache__/segmentation.cpython-312.pyc",
+                      "bytes":  3154,
+                      "sha256":  "4f4fc59913a56605fac680ea22e0c2d95b11e60a3673c0e62809124122fbaa94"
+                  },
+                  {
                       "path":  "src/agri_reliability/metrics/calibration.py",
                       "bytes":  2249,
                       "sha256":  "85f0ea0b0ae731bfa9d3b50632e4c26c7edf0dde9404c2aacc07e7f858deecf7"
@@ -1913,6 +2033,11 @@
                       "sha256":  "abea225891484c3fcde53843f3d7a1e4ca3b85164156c797b15e05f15e7f5cf8"
                   },
                   {
+                      "path":  "src/agri_reliability/reporting/__pycache__/plots.cpython-312.pyc",
+                      "bytes":  2827,
+                      "sha256":  "5aff1cfb2c5d022cccef28e9df85a163367ebb53b4bfbd8baa9fba945a401b91"
+                  },
+                  {
                       "path":  "src/agri_reliability/reporting/plots.py",
                       "bytes":  1336,
                       "sha256":  "a1f7132723c71ed7bc1e56a5bf307d9daf2a5adddc663b5fb25bffdc54cc39c9"
@@ -1926,6 +2051,11 @@
                       "path":  "src/agri_reliability/stress/image_quality.py",
                       "bytes":  1686,
                       "sha256":  "86f83615bebf05cd85281db42a362513ab64ab0110f1c19ae713691b1238e653"
+                  },
+                  {
+                      "path":  "src/agri_reliability/utils/__pycache__/config.cpython-312.pyc",
+                      "bytes":  597,
+                      "sha256":  "0065687a37c013fc061a9ffc53ef6a5d043e7cb7e662aabcec8cacd0a5b5954c"
                   },
                   {
                       "path":  "src/agri_reliability/utils/config.py",
